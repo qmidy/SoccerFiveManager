@@ -1,19 +1,19 @@
 ﻿MainMenuModule
 
 
-winexe
+library
 C#
 .cs
-E:\SoccerFive Manager\SoccerFive Manager\MainMenuModule\obj\Debug\
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Debug\
 MainMenuModule
 none
 false
 DEBUG;TRACE
-E:\SoccerFive Manager\SoccerFive Manager\MainMenuModule\App.xaml
+
 1464499870
 
-9-727542191
-13-1665610746
+81571036826
+132052100261
 MainMenuView.xaml;
 
 False
