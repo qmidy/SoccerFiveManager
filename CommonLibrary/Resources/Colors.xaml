@@ -1,0 +1,24 @@
+<ResourceDictionary
+    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <SolidColorBrush Color="#A2EF00" x:Key="ClearGreen"></SolidColorBrush>
+    <SolidColorBrush Color="#88B32D" x:Key="LightFadeClearGreen"></SolidColorBrush>
+    <SolidColorBrush Color="#699B00" x:Key="MiddleFadeClearGreen"></SolidColorBrush>
+    <SolidColorBrush Color="#BBF73E" x:Key="HighFadeClearGreen"></SolidColorBrush>
+    <SolidColorBrush Color="#CBF76F" x:Key="ExtremeFadeClearGreen"></SolidColorBrush>
+
+    <SolidColorBrush Color="#0ACF00" x:Key="DarkGreen"></SolidColorBrush>
+    <SolidColorBrush Color="#2D9B27" x:Key="LightFadeDarkGreen"></SolidColorBrush>
+    <SolidColorBrush Color="#078600" x:Key="MiddleFadeDarkGreen"></SolidColorBrush>
+    <SolidColorBrush Color="#42E73A" x:Key="HighFadeDarkGreen"></SolidColorBrush>
+    <SolidColorBrush Color="#6EE768" x:Key="ExtremeFadeDarkGreen"></SolidColorBrush>
+
+    <SolidColorBrush Color="#FFFD00" x:Key="Yellow"></SolidColorBrush>
+    <SolidColorBrush Color="#BFBE30" x:Key="LightFadeYellow"></SolidColorBrush>
+    <SolidColorBrush Color="#A6A500" x:Key="MiddleFadeYellow"></SolidColorBrush>
+    <SolidColorBrush Color="#FFFE40" x:Key="HighFadeYellow"></SolidColorBrush>
+    <SolidColorBrush Color="#FFFE73" x:Key="ExtremeFadeYellow"></SolidColorBrush>
+    
+</ResourceDictionary>

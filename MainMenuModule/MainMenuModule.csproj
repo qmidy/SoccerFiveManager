@@ -52,11 +52,14 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="MainMenuView.xaml">
+    <Page Include="View\MainMenuView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="MainMenuView.xaml.cs">
+    <Compile Include="Factory\MainMenuModuleFactory.cs" />
+    <Compile Include="Interfaces\IMainMenuModuleViewModel.cs" />
+    <Compile Include="ViewModel\MainMenuViewModel.cs" />
+    <Compile Include="View\MainMenuView.xaml.cs">
       <DependentUpon>MainMenuView.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>

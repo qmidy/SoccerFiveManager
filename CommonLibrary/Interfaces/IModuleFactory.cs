@@ -12,6 +12,9 @@ namespace CommonLibrary
     {
         UserControl CreateView();
 
+        UserControl CreateViewFromViewModel(T viewModel);
+
         T CreateViewModel();
+
     }
 }

@@ -1,4 +1,5 @@
 ﻿using CommonLibrary;
+using MainMenuModule;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -28,7 +29,8 @@ namespace Main
         public MainViewModel()
         {
             // Factory à implémenter pour la création des views et des viewmodels
-            MainContent = new MainMenuModule.MainMenuView();
+            MainMenuModuleFactory mainMenuModuleFactory = new MainMenuModuleFactory();
+            MainContent = mainMenuModuleFactory.CreateView();
         }
     }
 }
