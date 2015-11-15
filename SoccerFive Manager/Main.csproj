@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Prism">
+      <HintPath>..\packages\Prism.Core.6.1.0\lib\net45\Prism.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -85,6 +88,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -102,6 +106,10 @@
     <ProjectReference Include="..\MainMenuModule\MainMenuModule.csproj">
       <Project>{4f0de427-08f2-4e93-a3a1-30689ce463db}</Project>
       <Name>MainMenuModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MatchEngineModule\MatchEngineModule.csproj">
+      <Project>{48b41b20-7b0f-400d-9943-eaf5ee2d417f}</Project>
+      <Name>MatchEngineModule</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

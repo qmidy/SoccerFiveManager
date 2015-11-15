@@ -1,0 +1,15 @@
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\bin\Release\MainMenuModule.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\bin\Release\MainMenuModule.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\bin\Release\CommonLibrary.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\bin\Release\CommonLibrary.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Release\MainMenuModule.csprojResolveAssemblyReference.cache
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Release\View\MainMenuView.baml
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Release\View\MainMenuView.g.cs
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Release\MainMenuModule_MarkupCompile.cache
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Release\MainMenuModule.g.resources
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Release\MainMenuModule.Properties.Resources.resources
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Release\MainMenuModule.csproj.GenerateResource.Cache
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Release\MainMenuModule.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Release\MainMenuModule.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\bin\Release\Prism.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\bin\Release\Prism.xml

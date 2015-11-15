@@ -15,3 +15,10 @@ E:\SoccerFive Manager\SoccerFive Manager\SoccerFive Manager\bin\Debug\MainMenuMo
 E:\SoccerFive Manager\SoccerFive Manager\SoccerFive Manager\bin\Debug\MainMenuModule.pdb
 E:\SoccerFive Manager\SoccerFive Manager\SoccerFive Manager\obj\Debug\GeneratedInternalTypeHelper.g.cs
 E:\SoccerFive Manager\SoccerFive Manager\SoccerFive Manager\obj\Debug\SoccerFive Manager_MarkupCompile.lref
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\obj\Debug\Main.csprojResolveAssemblyReference.cache
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\obj\Debug\MainWindow.g.cs
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\obj\Debug\App.g.cs
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager_MarkupCompile.cache
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager_MarkupCompile.lref

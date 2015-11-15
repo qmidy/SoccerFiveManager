@@ -12,12 +12,12 @@
     </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Name="TopBanner" Height="50"/>
+            <RowDefinition Name="TopBanner" Height="{Binding TopBannerHeight}"/>
             <RowDefinition Name="ContentView" Height="*"/>
-            <RowDefinition Name="BottomBanner" Height="50"/>
+            <RowDefinition Name="BottomBanner" Height="{Binding BottomBannerHeight}"/>
         </Grid.RowDefinitions>
-        <Rectangle Grid.Row="0" Fill="{DynamicResource MiddleFadeYellow}"/>
+        <Rectangle Grid.Row="0" Visibility="{Binding IsTopBannerVisible}" Fill="{DynamicResource MiddleFadeYellow}"/>
         <ContentPresenter Grid.Row="1" Content="{Binding Path=MainContent}"/>
-        <Rectangle Grid.Row="2" Fill="{DynamicResource MiddleFadeDarkGreen}"/>
+        <Rectangle Grid.Row="2" Visibility="{Binding IsBottomBannerVisible}" Fill="{DynamicResource MiddleFadeDarkGreen}"/>
     </Grid>
 </Window>

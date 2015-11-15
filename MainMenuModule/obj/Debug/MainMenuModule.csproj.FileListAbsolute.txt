@@ -11,3 +11,16 @@ E:\SoccerFive Manager\SoccerFive Manager\MainMenuModule\obj\Debug\MainMenuModule
 E:\SoccerFive Manager\SoccerFive Manager\MainMenuModule\obj\Debug\MainMenuModule.csproj.GenerateResource.Cache
 E:\SoccerFive Manager\SoccerFive Manager\MainMenuModule\obj\Debug\MainMenuModule.exe
 E:\SoccerFive Manager\SoccerFive Manager\MainMenuModule\obj\Debug\MainMenuModule.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\bin\Debug\MainMenuModule.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\bin\Debug\MainMenuModule.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\bin\Debug\CommonLibrary.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\bin\Debug\CommonLibrary.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Debug\MainMenuModule.csprojResolveAssemblyReference.cache
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Debug\View\MainMenuView.baml
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Debug\View\MainMenuView.g.cs
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Debug\MainMenuModule_MarkupCompile.cache
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Debug\MainMenuModule.g.resources
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Debug\MainMenuModule.Properties.Resources.resources
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Debug\MainMenuModule.csproj.GenerateResource.Cache
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Debug\MainMenuModule.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\obj\Debug\MainMenuModule.pdb

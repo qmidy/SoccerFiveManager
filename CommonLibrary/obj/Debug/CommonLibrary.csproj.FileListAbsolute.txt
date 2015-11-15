@@ -1,0 +1,9 @@
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\bin\Debug\CommonLibrary.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\bin\Debug\CommonLibrary.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Debug\Resources\Colors.baml
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Debug\CommonLibrary_MarkupCompile.cache
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Debug\CommonLibrary.g.resources
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Debug\CommonLibrary.Properties.Resources.resources
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Debug\CommonLibrary.csproj.GenerateResource.Cache
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Debug\CommonLibrary.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Debug\CommonLibrary.pdb

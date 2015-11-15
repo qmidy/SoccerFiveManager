@@ -9,5 +9,6 @@ namespace MainMenuModule
 {
     public class MainMenuViewModel : CommonViewModel, IMainMenuModuleViewModel
     {
+
     }
 }

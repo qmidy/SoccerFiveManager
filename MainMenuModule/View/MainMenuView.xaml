@@ -5,6 +5,6 @@
         <ResourceDictionary Source="pack://application:,,,/CommonLibrary;component/Resources/Colors.xaml"/>
     </UserControl.Resources>
     <Grid Background="{DynamicResource MiddleFadeClearGreen}">
-        
+        <Button Width="50" Height="50" Click="Button_Click"> Moteur de match </Button>
     </Grid>
 </UserControl>

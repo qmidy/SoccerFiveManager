@@ -1,0 +1,12 @@
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\bin\Release\CommonLibrary.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\bin\Release\CommonLibrary.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Release\Resources\Colors.baml
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Release\CommonLibrary_MarkupCompile.cache
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Release\CommonLibrary.g.resources
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Release\CommonLibrary.Properties.Resources.resources
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Release\CommonLibrary.csproj.GenerateResource.Cache
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Release\CommonLibrary.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Release\CommonLibrary.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Release\CommonLibrary.csprojResolveAssemblyReference.cache
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\bin\Release\Prism.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\bin\Release\Prism.xml
