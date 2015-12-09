@@ -59,6 +59,7 @@
     <Compile Include="EventAggregator\CommonEventAggregator.cs" />
     <Compile Include="EventAggregator\CompositeWpfEvent.cs" />
     <Compile Include="EventAggregator\EventAggregator.cs" />
+    <Compile Include="Interfaces\ICalendarEvent.cs" />
     <Compile Include="Interfaces\IModuleFactory.cs" />
     <Compile Include="Interfaces\IModuleService.cs" />
     <Compile Include="Interfaces\IModuleViewModel.cs" />
