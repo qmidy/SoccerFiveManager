@@ -56,7 +56,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Service\CalendarService.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -100,6 +99,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CalendarModule\CalendarModule.csproj">
+      <Project>{9829187c-564f-48ca-9dad-1dfe53b4975a}</Project>
+      <Name>CalendarModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClubModule\ClubModule.csproj">
+      <Project>{ac64f660-6f0f-426b-ba66-caaba64cde16}</Project>
+      <Name>ClubModule</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CommonLibrary\CommonLibrary.csproj">
       <Project>{de2bf8e0-5155-4891-aa4e-12f5c938f566}</Project>
       <Name>CommonLibrary</Name>
@@ -112,9 +119,22 @@
       <Project>{48b41b20-7b0f-400d-9943-eaf5ee2d417f}</Project>
       <Name>MatchEngineModule</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TacticModule\TacticModule.csproj">
+      <Project>{258d4c82-10ec-46d1-8ce9-5c1ef3bf70f6}</Project>
+      <Name>TacticModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TeamModule\TeamModule.csproj">
+      <Project>{44896f79-4d97-4f27-823b-450e3d7eac32}</Project>
+      <Name>TeamModule</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TopBannerModule\TopBannerModule.csproj">
+      <Project>{3d402c79-d4f9-46af-9e35-9ffdac07e354}</Project>
+      <Name>TopBannerModule</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interfaces\" />
+    <Folder Include="Service\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

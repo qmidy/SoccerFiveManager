@@ -17,4 +17,12 @@ namespace CommonLibrary
     }
 
     public class GoToMatchEngineEvent : CompositeWpfEvent<string> { }
+
+    public class GoToCalendarEvent : CompositeWpfEvent<string> { }
+
+    public class GoToClubEvent : CompositeWpfEvent<IClub> { }
+
+    public class GoToTeamEvent : CompositeWpfEvent<ITeam> { }
+
+    public class GoToTacticEvent : CompositeWpfEvent<ITeam> { }
 }

@@ -5,6 +5,17 @@
         <ResourceDictionary Source="pack://application:,,,/CommonLibrary;component/Resources/Colors.xaml"/>
     </UserControl.Resources>
     <Grid Background="{DynamicResource MiddleFadeClearGreen}">
-        <Button Width="50" Height="50" Click="Button_Click"> Moteur de match </Button>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Column="0" Width="50" Height="50" Click="Button_Click"> Moteur de match </Button>
+        <Button Grid.Column="1" Width="50" Height="50" Click="Button2_Click"> Calendar </Button>
+        <Button Grid.Column="2" Width="50" Height="50" Click="Button3_Click"> Club </Button>
+        <Button Grid.Column="3" Width="50" Height="50" Click="Button4_Click"> Team </Button>
+        <Button Grid.Column="4" Width="50" Height="50" Click="Button5_Click"> Tactic </Button>
     </Grid>
 </UserControl>

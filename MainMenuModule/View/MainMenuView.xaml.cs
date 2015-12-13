@@ -30,5 +30,25 @@ namespace MainMenuModule
         {
             CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToMatchEngineEvent>().Publish(string.Empty);
         }
+
+        private void Button2_Click(object sender, RoutedEventArgs e)
+        {
+            CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToCalendarEvent>().Publish(string.Empty);
+        }
+
+        private void Button3_Click(object sender, RoutedEventArgs e)
+        {
+            CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToClubEvent>().Publish(null);
+        }
+
+        private void Button4_Click(object sender, RoutedEventArgs e)
+        {
+            CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToTeamEvent>().Publish(null);
+        }
+
+        private void Button5_Click(object sender, RoutedEventArgs e)
+        {
+            CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToTacticEvent>().Publish(null);
+        }
     }
 }

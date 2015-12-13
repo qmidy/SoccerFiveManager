@@ -1,5 +1,20 @@
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CommonLibrary\bin\Release\CommonLibrary.dll
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CommonLibrary\bin\Release\CommonLibrary.pdb
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CommonLibrary\bin\Release\Prism.dll
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CommonLibrary\bin\Release\Prism.xml
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CommonLibrary\obj\Release\Resources\Colors.baml
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CommonLibrary\obj\Release\CommonLibrary_MarkupCompile.cache
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CommonLibrary\obj\Release\CommonLibrary.g.resources
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CommonLibrary\obj\Release\CommonLibrary.Properties.Resources.resources
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CommonLibrary\obj\Release\CommonLibrary.csproj.GenerateResource.Cache
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CommonLibrary\obj\Release\CommonLibrary.dll
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CommonLibrary\obj\Release\CommonLibrary.pdb
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CommonLibrary\obj\Release\CommonLibrary.csprojResolveAssemblyReference.cache
 E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\bin\Release\CommonLibrary.dll
 E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\bin\Release\CommonLibrary.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\bin\Release\Prism.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\bin\Release\Prism.xml
+E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Release\CommonLibrary.csprojResolveAssemblyReference.cache
 E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Release\Resources\Colors.baml
 E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Release\CommonLibrary_MarkupCompile.cache
 E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Release\CommonLibrary.g.resources
@@ -7,6 +22,3 @@ E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Release\CommonLibrar
 E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Release\CommonLibrary.csproj.GenerateResource.Cache
 E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Release\CommonLibrary.dll
 E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Release\CommonLibrary.pdb
-E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Release\CommonLibrary.csprojResolveAssemblyReference.cache
-E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\bin\Release\Prism.dll
-E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\bin\Release\Prism.xml

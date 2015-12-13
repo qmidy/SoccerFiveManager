@@ -29,5 +29,7 @@ namespace CommonLibrary
     public interface ICalendarEvent
     {
         void LaunchEvent();
+
+        string EventName { get; set; }
     }
 }

@@ -16,7 +16,7 @@
             <RowDefinition Name="ContentView" Height="*"/>
             <RowDefinition Name="BottomBanner" Height="{Binding BottomBannerHeight}"/>
         </Grid.RowDefinitions>
-        <Rectangle Grid.Row="0" Visibility="{Binding IsTopBannerVisible}" Fill="{DynamicResource MiddleFadeYellow}"/>
+        <ContentPresenter Grid.Row="0" Visibility="{Binding IsTopBannerVisible}" Content="{Binding Path=TopBannerContent}"/>
         <ContentPresenter Grid.Row="1" Content="{Binding Path=MainContent}"/>
         <Rectangle Grid.Row="2" Visibility="{Binding IsBottomBannerVisible}" Fill="{DynamicResource MiddleFadeDarkGreen}"/>
     </Grid>

@@ -1,0 +1,77 @@
+﻿<UserControl x:Class="TacticModule.TacticView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <UserControl.Resources>
+        <ResourceDictionary Source="pack://application:,,,/CommonLibrary;component/Resources/Colors.xaml"/>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+       
+        <!-- Représentation du terrain en 9 cases dans lesquels les joueurs seront placés -->
+        <Grid Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Rectangle Grid.Row="0" Fill="AliceBlue" />
+                <Rectangle Grid.Row="1" Fill="AntiqueWhite" />
+                <Rectangle Grid.Row="2" Fill="Aqua" />
+            </Grid>
+
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Rectangle Grid.Row="0" Fill="Aquamarine" />
+                <Rectangle Grid.Row="1" Fill="Azure" />
+                <Rectangle Grid.Row="2" Fill="Beige" />
+            </Grid>
+
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Rectangle Grid.Row="0" Fill="Bisque" />
+                <Rectangle Grid.Row="1" Fill="Black" />
+                <Rectangle Grid.Row="2" Fill="BlanchedAlmond" />
+            </Grid>
+
+        </Grid>
+        
+    
+        <Grid Grid.Column="1">
+            <ItemsControl ItemsSource="{Binding Team.Players}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Vertical"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <ItemContainerTemplate>
+                        <StackPanel>
+                            <TextBlock Text="{Binding Name}"/>
+                        </StackPanel>
+                    </ItemContainerTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </Grid>
+
+    </Grid>
+
+</UserControl>

@@ -7,7 +7,7 @@ using System.Windows;
 
 namespace CommonLibrary
 {
-    public class Player
+    public class Player : IPlayer
     {
         public Point Position { get; set; }
 
