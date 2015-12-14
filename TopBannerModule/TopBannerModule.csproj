@@ -40,6 +40,10 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Prism, Version=6.1.0.0, Culture=neutral, PublicKeyToken=91a96d2a154366d8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Prism.Core.6.1.0\lib\net45\Prism.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -55,12 +59,19 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Popup\TopBannerMenuPopup.xaml.cs">
+      <DependentUpon>TopBannerMenuPopup.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewModel\TopBannerViewModel.cs" />
     <Compile Include="View\TopBannerView.xaml.cs">
       <DependentUpon>TopBannerView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Factory\TopBannerModuleFactory.cs" />
     <Compile Include="Interfaces\ITopBannerModuleViewModel.cs" />
+    <Page Include="Popup\TopBannerMenuPopup.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\TopBannerView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -90,9 +101,7 @@
     </None>
     <AppDesigner Include="Properties\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Popup\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\CommonLibrary\CommonLibrary.csproj">
       <Project>{de2bf8e0-5155-4891-aa4e-12f5c938f566}</Project>

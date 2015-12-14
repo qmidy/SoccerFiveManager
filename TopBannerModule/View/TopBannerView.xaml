@@ -1,6 +1,7 @@
 ﻿<UserControl x:Class="TopBannerModule.TopBannerView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:topBannerModule="clr-namespace:TopBannerModule">
     <UserControl.Resources>
         <ResourceDictionary Source="pack://application:,,,/CommonLibrary;component/Resources/Colors.xaml"/>
     </UserControl.Resources>
@@ -11,7 +12,7 @@
             <ColumnDefinition Width="50"/>
         </Grid.ColumnDefinitions>
 
-        <Rectangle Grid.Column="0" Fill="Black"/>
+        <ToggleButton Name="MenuPopupOpened" Grid.Column="0" IsChecked="False"/>
 
         <Grid Grid.Column="1">
             <ItemsControl ItemsSource="{Binding EventDictionnary}">
@@ -44,6 +45,13 @@
         </Grid>
 
         <Button Grid.Column="2" Click="NextClick"> Next </Button>
+
+        <!-- Popup s'ouvrant lorsque le ToggleButton MenuPopupOpened est activé -->
+
+        <topBannerModule:TopBannerMenuPopup IsOpen="{Binding ElementName=MenuPopupOpened, Path=IsChecked, Mode=OneWay}"
+                                            Height="200"
+                                            PlacementTarget="{Binding ElementName=MenuPopupOpened}"
+                                            Placement="Bottom"/>
 
     </Grid>
 </UserControl>

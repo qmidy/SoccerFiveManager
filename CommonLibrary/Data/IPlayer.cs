@@ -31,6 +31,8 @@ namespace CommonLibrary
     {
         Point Position { get; set; }
 
+        EnumArea Area { get; set; }
+
         string Name { get; set; }
 
         int Attack { get; set; }

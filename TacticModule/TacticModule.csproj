@@ -70,6 +70,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="ViewModel\PlayerViewModel.cs" />
     <Compile Include="ViewModel\TacticViewModel.cs" />
     <Compile Include="View\TacticView.xaml.cs">
       <DependentUpon>TacticView.xaml</DependentUpon>

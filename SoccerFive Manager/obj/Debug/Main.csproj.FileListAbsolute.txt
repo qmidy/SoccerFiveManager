@@ -22,3 +22,62 @@ E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\obj\Debug\App.g.cs
 E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\obj\Debug\GeneratedInternalTypeHelper.g.cs
 E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager_MarkupCompile.cache
 E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager_MarkupCompile.lref
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\SoccerFive Manager.exe.config
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\SoccerFive Manager.exe
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\SoccerFive Manager.pdb
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\CalendarModule.dll
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\ClubModule.dll
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\CommonLibrary.dll
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\MainMenuModule.dll
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\MatchEngineModule.dll
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\Prism.dll
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\TacticModule.dll
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\TeamModule.dll
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\TopBannerModule.dll
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\CalendarModule.pdb
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\ClubModule.pdb
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\TacticModule.pdb
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\TeamModule.pdb
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\TopBannerModule.pdb
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\CommonLibrary.pdb
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\MainMenuModule.pdb
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\MatchEngineModule.pdb
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\bin\Debug\Prism.xml
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\Debug\Main.csprojResolveAssemblyReference.cache
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\Debug\MainWindow.g.cs
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\Debug\App.g.cs
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\Debug\SoccerFive Manager_MarkupCompile.cache
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\Debug\SoccerFive Manager_MarkupCompile.lref
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\Debug\MainWindow.baml
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\Debug\SoccerFive Manager.g.resources
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\Debug\Main.Properties.Resources.resources
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\Debug\Main.csproj.GenerateResource.Cache
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\Debug\SoccerFive Manager.exe
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\Debug\SoccerFive Manager.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\SoccerFive Manager.exe.config
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager.exe
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\SoccerFive Manager.exe
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\SoccerFive Manager.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\CalendarModule.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\ClubModule.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\CommonLibrary.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\MainMenuModule.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\MatchEngineModule.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\Prism.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\TacticModule.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\TeamModule.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\TopBannerModule.dll
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\CalendarModule.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\ClubModule.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\TacticModule.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\TeamModule.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\TopBannerModule.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\CommonLibrary.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\MainMenuModule.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\MatchEngineModule.pdb
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\bin\Debug\Prism.xml
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\obj\Debug\MainWindow.baml
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager.g.resources
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\obj\Debug\Main.Properties.Resources.resources
+E:\SoccerFiveManagerGit\SoccerFiveManager\SoccerFive Manager\obj\Debug\Main.csproj.GenerateResource.Cache

@@ -1,20 +1,20 @@
 ﻿CalendarModule
 
 
-winexe
+library
 C#
 .cs
-d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CalendarModule\obj\x86\Debug\
+E:\SoccerFiveManagerGit\SoccerFiveManager\CalendarModule\obj\x86\Debug\
 CalendarModule
 none
 false
 DEBUG;TRACE
-d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CalendarModule\App.xaml
-11151548125
 
-91662998475
-12-1340154603
-MainWindow.xaml;
+1909030254
+
+11883999002
+132052100261
+View\CalendarView.xaml;
 
 False
 

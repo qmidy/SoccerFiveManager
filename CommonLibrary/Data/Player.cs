@@ -11,6 +11,8 @@ namespace CommonLibrary
     {
         public Point Position { get; set; }
 
+        public EnumArea Area { get; set; }
+
         public string Name { get; set; }
 
         public int Attack { get; set; }

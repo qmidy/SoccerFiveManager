@@ -1,20 +1,20 @@
 ﻿TeamModule
 
 
-winexe
+library
 C#
 .cs
-d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TeamModule\obj\x86\Debug\
+E:\SoccerFiveManagerGit\SoccerFiveManager\TeamModule\obj\x86\Debug\
 TeamModule
 none
 false
 DEBUG;TRACE
-d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TeamModule\App.xaml
-11151548125
 
-91662998475
-12-1340154603
-MainWindow.xaml;
+1-1454428135
+
+11-1221468521
+132052100261
+View\TeamView.xaml;
 
 False
 

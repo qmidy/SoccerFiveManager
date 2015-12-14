@@ -24,5 +24,11 @@ namespace TacticModule
         {
             InitializeComponent();
         }
+
+        private void LeftAttackAreaClick(object sender, MouseButtonEventArgs e)
+        {
+            var dataContext = (sender as Canvas).DataContext as TacticViewModel;
+            dataContext.LeftAttackAreaSelected();
+        }
     }
 }

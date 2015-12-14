@@ -160,6 +160,7 @@ namespace Main
             hideTopBannerEvent(this, null);
 
             // Initialisation des événements de changement de vue
+            CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToMainMenuEvent>().Subscribe(GoToMainMenuCallBack);
             CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToMatchEngineEvent>().Subscribe(GoToMacthEngineCallBack);
             CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToCalendarEvent>().Subscribe(GoToCalendarEventCallBack);
             CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToClubEvent>().Subscribe(GoToClubEventCallBack);
@@ -174,6 +175,11 @@ namespace Main
         }
 
         #region Go To View Private Methods
+        private void GoToMainMenuCallBack(string arg)
+        {
+            MainMenuModuleFactory mainMenuModuleFactory = new MainMenuModuleFactory();
+            MainContent = mainMenuModuleFactory.CreateView();
+        }
         private void GoToMacthEngineCallBack(string arg)
         {
             MatchEngineModuleFactory matchEngineModuleFactory = new MatchEngineModuleFactory();

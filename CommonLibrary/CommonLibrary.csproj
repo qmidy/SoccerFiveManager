@@ -62,6 +62,7 @@
     <Compile Include="Data\ITeam.cs" />
     <Compile Include="Data\Player.cs" />
     <Compile Include="Data\Team.cs" />
+    <Compile Include="Enums\EnumArea.cs" />
     <Compile Include="EventAggregator\CommonEventAggregator.cs" />
     <Compile Include="EventAggregator\CompositeWpfEvent.cs" />
     <Compile Include="EventAggregator\EventAggregator.cs" />

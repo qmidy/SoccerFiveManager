@@ -11,52 +11,89 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
        
-        <!-- Représentation du terrain en 9 cases dans lesquels les joueurs seront placés -->
+        <!-- Représentation du terrain en 10 cases dans lesquels les joueurs seront placés -->
         <Grid Grid.Column="0">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition/>
-            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
             
-            <Grid Grid.Column="0">
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Rectangle Grid.Row="0" Fill="AliceBlue" />
-                <Rectangle Grid.Row="1" Fill="AntiqueWhite" />
-                <Rectangle Grid.Row="2" Fill="Aqua" />
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <!-- Left Attack Area -->
+                <Canvas Grid.Column="0" Background="AliceBlue" MouseLeftButtonDown="LeftAttackAreaClick">
+                    <ItemsControl ItemsSource="{Binding LeftAttackPlayers}">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <StackPanel Orientation="Vertical"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                        <ItemsControl.ItemTemplate>
+                            <ItemContainerTemplate>
+                                <TextBlock Text="{Binding Name}"></TextBlock>
+                            </ItemContainerTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </Canvas>
+                <!-- Center Attack Area -->
+                <Rectangle Grid.Column="1" Fill="AntiqueWhite" />
+                <!-- Right Attack Area -->
+                <Rectangle Grid.Column="2" Fill="Aqua" />
             </Grid>
 
-            <Grid Grid.Column="1">
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Rectangle Grid.Row="0" Fill="Aquamarine" />
-                <Rectangle Grid.Row="1" Fill="Azure" />
-                <Rectangle Grid.Row="2" Fill="Beige" />
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <!-- Left Middle Area -->
+                <Rectangle Grid.Column="0" Fill="Aquamarine" />
+                <!-- Center Middle Area -->
+                <Rectangle Grid.Column="1" Fill="Azure" />
+                <!-- Right Middle Area -->
+                <Rectangle Grid.Column="2" Fill="Beige" />
             </Grid>
 
-            <Grid Grid.Column="2">
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-                <Rectangle Grid.Row="0" Fill="Bisque" />
-                <Rectangle Grid.Row="1" Fill="Black" />
-                <Rectangle Grid.Row="2" Fill="BlanchedAlmond" />
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <!-- Left Defense Area -->
+                <Rectangle Grid.Column="0" Fill="Bisque" />
+                <!-- Center Defense Area -->
+                <Rectangle Grid.Column="1" Fill="Black" />
+                <!-- Right Defense Area -->
+                <Rectangle Grid.Column="2" Fill="BlanchedAlmond" />
+            </Grid>
+
+            <Grid Grid.Row="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <!-- Not an area -->
+                <Rectangle Grid.Column="0" Fill="Bisque" />
+                <!-- Goal Keeper Area -->
+                <Rectangle Grid.Column="1" Fill="Black" />
+                <!-- Not an Area -->
+                <Rectangle Grid.Column="2" Fill="BlanchedAlmond" />
             </Grid>
 
         </Grid>
         
-    
+        <!-- Liste des joueurs --> 
         <Grid Grid.Column="1">
-            <ItemsControl ItemsSource="{Binding Team.Players}">
+            <ItemsControl ItemsSource="{Binding Players}">
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
                         <StackPanel Orientation="Vertical"/>
@@ -65,7 +102,7 @@
                 <ItemsControl.ItemTemplate>
                     <ItemContainerTemplate>
                         <StackPanel>
-                            <TextBlock Text="{Binding Name}"/>
+                            <ToggleButton Content="{Binding Name}" IsChecked="{Binding IsPlayerChecked, Mode=TwoWay}"/>
                         </StackPanel>
                     </ItemContainerTemplate>
                 </ItemsControl.ItemTemplate>

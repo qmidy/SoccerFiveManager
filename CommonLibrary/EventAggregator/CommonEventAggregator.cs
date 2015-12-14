@@ -16,6 +16,8 @@ namespace CommonLibrary
         private static EventAggregator commonEventAggregator = new EventAggregator();
     }
 
+    public class GoToMainMenuEvent : CompositeWpfEvent<string> { }
+
     public class GoToMatchEngineEvent : CompositeWpfEvent<string> { }
 
     public class GoToCalendarEvent : CompositeWpfEvent<string> { }

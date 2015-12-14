@@ -1,20 +1,20 @@
 ﻿TacticModule
 
 
-winexe
+library
 C#
 .cs
-d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TacticModule\obj\x86\Debug\
+E:\SoccerFiveManagerGit\SoccerFiveManager\TacticModule\obj\x86\Debug\
 TacticModule
 none
 false
 DEBUG;TRACE
-d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TacticModule\App.xaml
-11151548125
 
-91662998475
-12-1340154603
-MainWindow.xaml;
+1-1822261067
+
+121268069124
+132052100261
+View\TacticView.xaml;
 
 False
 
