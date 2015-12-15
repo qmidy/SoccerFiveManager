@@ -4,7 +4,6 @@ d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TacticModule\bin\Debug\
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TacticModule\bin\Debug\Prism.dll
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TacticModule\bin\Debug\CommonLibrary.pdb
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TacticModule\bin\Debug\Prism.xml
-d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TacticModule\obj\x86\Debug\TacticModule.csprojResolveAssemblyReference.cache
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TacticModule\obj\x86\Debug\View\TacticView.baml
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TacticModule\obj\x86\Debug\View\TacticView.g.cs
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TacticModule\obj\x86\Debug\TacticModule_MarkupCompile.cache
@@ -13,18 +12,4 @@ d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TacticModule\obj\x86\De
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TacticModule\obj\x86\Debug\TacticModule.csproj.GenerateResource.Cache
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TacticModule\obj\x86\Debug\TacticModule.dll
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TacticModule\obj\x86\Debug\TacticModule.pdb
-E:\SoccerFiveManagerGit\SoccerFiveManager\TacticModule\bin\Debug\TacticModule.dll
-E:\SoccerFiveManagerGit\SoccerFiveManager\TacticModule\bin\Debug\TacticModule.pdb
-E:\SoccerFiveManagerGit\SoccerFiveManager\TacticModule\bin\Debug\CommonLibrary.dll
-E:\SoccerFiveManagerGit\SoccerFiveManager\TacticModule\bin\Debug\Prism.dll
-E:\SoccerFiveManagerGit\SoccerFiveManager\TacticModule\bin\Debug\CommonLibrary.pdb
-E:\SoccerFiveManagerGit\SoccerFiveManager\TacticModule\bin\Debug\Prism.xml
-E:\SoccerFiveManagerGit\SoccerFiveManager\TacticModule\obj\x86\Debug\TacticModule.csprojResolveAssemblyReference.cache
-E:\SoccerFiveManagerGit\SoccerFiveManager\TacticModule\obj\x86\Debug\View\TacticView.baml
-E:\SoccerFiveManagerGit\SoccerFiveManager\TacticModule\obj\x86\Debug\View\TacticView.g.cs
-E:\SoccerFiveManagerGit\SoccerFiveManager\TacticModule\obj\x86\Debug\TacticModule_MarkupCompile.cache
-E:\SoccerFiveManagerGit\SoccerFiveManager\TacticModule\obj\x86\Debug\TacticModule.g.resources
-E:\SoccerFiveManagerGit\SoccerFiveManager\TacticModule\obj\x86\Debug\TacticModule.Properties.Resources.resources
-E:\SoccerFiveManagerGit\SoccerFiveManager\TacticModule\obj\x86\Debug\TacticModule.csproj.GenerateResource.Cache
-E:\SoccerFiveManagerGit\SoccerFiveManager\TacticModule\obj\x86\Debug\TacticModule.dll
-E:\SoccerFiveManagerGit\SoccerFiveManager\TacticModule\obj\x86\Debug\TacticModule.pdb
+d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TacticModule\obj\x86\Debug\TacticModule.csprojResolveAssemblyReference.cache

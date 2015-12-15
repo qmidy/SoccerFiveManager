@@ -110,10 +110,15 @@ namespace TacticModule
             set
             {
                 isPlayerChecked = value;
-                if (PlayerSelectedEvent != null && isPlayerChecked)
-                    PlayerSelectedEvent(this, null);
+                PlayerSelectedEvent(this, null);
                 OnPropertyChanged("IsPlayerChecked");
             }
+        }
+
+        public void SetOnlyIsPlayerChecked(bool value)
+        {
+            isPlayerChecked = value;
+            OnPropertyChanged("IsPlayerChecked");
         }
 
         public EventHandler PlayerSelectedEvent;

@@ -19,6 +19,3 @@ d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CommonLibrary\obj\Debug
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CommonLibrary\obj\Debug\CommonLibrary.dll
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CommonLibrary\obj\Debug\CommonLibrary.pdb
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CommonLibrary\obj\Debug\CommonLibrary.csprojResolveAssemblyReference.cache
-E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\bin\Debug\Prism.dll
-E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\bin\Debug\Prism.xml
-E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Debug\CommonLibrary.csprojResolveAssemblyReference.cache

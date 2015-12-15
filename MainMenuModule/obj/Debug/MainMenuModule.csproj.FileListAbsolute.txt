@@ -39,5 +39,3 @@ d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\MainMenuModule\obj\Debu
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\MainMenuModule\obj\Debug\MainMenuModule.csproj.GenerateResource.Cache
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\MainMenuModule\obj\Debug\MainMenuModule.dll
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\MainMenuModule\obj\Debug\MainMenuModule.pdb
-E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\bin\Debug\Prism.dll
-E:\SoccerFiveManagerGit\SoccerFiveManager\MainMenuModule\bin\Debug\Prism.xml

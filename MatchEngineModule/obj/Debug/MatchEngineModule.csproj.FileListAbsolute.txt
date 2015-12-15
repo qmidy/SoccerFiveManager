@@ -26,5 +26,3 @@ d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\MatchEngineModule\obj\D
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\MatchEngineModule\obj\Debug\MatchEngineModule.csproj.GenerateResource.Cache
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\MatchEngineModule\obj\Debug\MatchEngineModule.dll
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\MatchEngineModule\obj\Debug\MatchEngineModule.pdb
-E:\SoccerFiveManagerGit\SoccerFiveManager\MatchEngineModule\bin\Debug\Prism.dll
-E:\SoccerFiveManagerGit\SoccerFiveManager\MatchEngineModule\bin\Debug\Prism.xml

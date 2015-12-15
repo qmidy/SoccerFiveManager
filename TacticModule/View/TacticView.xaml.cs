@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CommonLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -27,8 +28,62 @@ namespace TacticModule
 
         private void LeftAttackAreaClick(object sender, MouseButtonEventArgs e)
         {
-            var dataContext = (sender as Canvas).DataContext as TacticViewModel;
-            dataContext.LeftAttackAreaSelected();
+            var dataContext = (sender as Border).DataContext as TacticViewModel;
+            dataContext.AreaSelected(EnumArea.AttackLeft);
+        }
+
+        private void CenterAttackAreaClick(object sender, MouseButtonEventArgs e)
+        {
+            var dataContext = (sender as Border).DataContext as TacticViewModel;
+            dataContext.AreaSelected(EnumArea.AttackCenter);
+        }
+
+        private void RightAttackAreaClick(object sender, MouseButtonEventArgs e)
+        {
+            var dataContext = (sender as Border).DataContext as TacticViewModel;
+            dataContext.AreaSelected(EnumArea.AttackRight);
+        }
+
+        private void LeftMiddleAreaClick(object sender, MouseButtonEventArgs e)
+        {
+            var dataContext = (sender as Border).DataContext as TacticViewModel;
+            dataContext.AreaSelected(EnumArea.MiddleLeft);
+        }
+
+        private void CenterMiddleAreaClick(object sender, MouseButtonEventArgs e)
+        {
+            var dataContext = (sender as Border).DataContext as TacticViewModel;
+            dataContext.AreaSelected(EnumArea.MiddleCenter);
+        }
+
+        private void RightMiddleAreaClick(object sender, MouseButtonEventArgs e)
+        {
+            var dataContext = (sender as Border).DataContext as TacticViewModel;
+            dataContext.AreaSelected(EnumArea.MiddleRight);
+        }
+
+        private void LeftDefenseAreaClick(object sender, MouseButtonEventArgs e)
+        {
+            var dataContext = (sender as Border).DataContext as TacticViewModel;
+            dataContext.AreaSelected(EnumArea.DefenseLeft);
+        }
+
+        private void CenterDefenseAreaClick(object sender, MouseButtonEventArgs e)
+        {
+            var dataContext = (sender as Border).DataContext as TacticViewModel;
+            dataContext.AreaSelected(EnumArea.DefenseCenter);
+        }
+
+        private void RightDefenseAreaClick(object sender, MouseButtonEventArgs e)
+        {
+            var dataContext = (sender as Border).DataContext as TacticViewModel;
+            dataContext.AreaSelected(EnumArea.DefenseRight);
+        }
+
+        private void GoalKeeperAreaClick(object sender, MouseButtonEventArgs e)
+        {
+            var dataContext = (sender as Border).DataContext as TacticViewModel;
+            dataContext.AreaSelected(EnumArea.GoalKeeper);
         }
     }
 }

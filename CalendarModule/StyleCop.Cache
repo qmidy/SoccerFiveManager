@@ -83,6 +83,9 @@
     </timestamps>
     <violations />
   </sourcecode>
+  <project key="1946661394">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
   <sourcecode name="CalendarModuleFactory.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2014/10/03 16:11:44.000</styleCop>
@@ -996,7 +999,4 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <project key="1946661394">
-    <configuration>DEBUG;TRACE</configuration>
-  </project>
 </stylecopresultscache>

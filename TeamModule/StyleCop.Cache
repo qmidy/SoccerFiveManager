@@ -83,6 +83,9 @@
     </timestamps>
     <violations />
   </sourcecode>
+  <project key="-824534416">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
   <sourcecode name="TeamModuleFactory.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2014/10/03 16:11:44.000</styleCop>
@@ -996,7 +999,4 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <project key="-824534416">
-    <configuration>DEBUG;TRACE</configuration>
-  </project>
 </stylecopresultscache>

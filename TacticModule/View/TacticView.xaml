@@ -13,6 +13,9 @@
        
         <!-- Représentation du terrain en 10 cases dans lesquels les joueurs seront placés -->
         <Grid Grid.Column="0">
+            <Grid.Background>
+                <ImageBrush ImageSource="pack://application:,,,/CommonLibrary;component/Resources/TacticGround.bmp"/>
+            </Grid.Background>
             <Grid.RowDefinitions>
                 <RowDefinition/>
                 <RowDefinition/>
@@ -27,24 +30,56 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <!-- Left Attack Area -->
-                <Canvas Grid.Column="0" Background="AliceBlue" MouseLeftButtonDown="LeftAttackAreaClick">
-                    <ItemsControl ItemsSource="{Binding LeftAttackPlayers}">
-                        <ItemsControl.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <StackPanel Orientation="Vertical"/>
-                            </ItemsPanelTemplate>
-                        </ItemsControl.ItemsPanel>
-                        <ItemsControl.ItemTemplate>
-                            <ItemContainerTemplate>
-                                <TextBlock Text="{Binding Name}"></TextBlock>
-                            </ItemContainerTemplate>
-                        </ItemsControl.ItemTemplate>
-                    </ItemsControl>
-                </Canvas>
+                <Border Grid.Column="0" BorderBrush="Gray" BorderThickness="0.1" MouseLeftButtonDown="LeftAttackAreaClick">
+                    <Grid Background="Transparent">
+                        <ItemsControl ItemsSource="{Binding LeftAttackPlayers}" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Vertical"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <ItemContainerTemplate>
+                                    <TextBlock Text="{Binding Name}"/>
+                                </ItemContainerTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </Grid>
+                </Border>
                 <!-- Center Attack Area -->
-                <Rectangle Grid.Column="1" Fill="AntiqueWhite" />
+                <Border Grid.Column="1" BorderBrush="Gray" BorderThickness="0.1" MouseLeftButtonDown="CenterAttackAreaClick">
+                    <Grid Background="Transparent">
+                        <ItemsControl ItemsSource="{Binding CenterAttackPlayers}" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Vertical"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <ItemContainerTemplate>
+                                    <TextBlock Text="{Binding Name}"></TextBlock>
+                                </ItemContainerTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </Grid>
+                </Border>
                 <!-- Right Attack Area -->
-                <Rectangle Grid.Column="2" Fill="Aqua" />
+                <Border Grid.Column="2" BorderBrush="Gray" BorderThickness="0.1" MouseLeftButtonDown="RightAttackAreaClick">
+                    <Grid Background="Transparent">
+                        <ItemsControl ItemsSource="{Binding RightAttackPlayers}" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Vertical"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <ItemContainerTemplate>
+                                    <TextBlock Text="{Binding Name}"></TextBlock>
+                                </ItemContainerTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </Grid>
+                </Border>
             </Grid>
 
             <Grid Grid.Row="1">
@@ -54,11 +89,56 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <!-- Left Middle Area -->
-                <Rectangle Grid.Column="0" Fill="Aquamarine" />
+                <Border Grid.Column="0" BorderBrush="Gray" BorderThickness="0.1" MouseLeftButtonDown="LeftMiddleAreaClick">
+                    <Grid Background="Transparent">
+                        <ItemsControl ItemsSource="{Binding LeftMiddlePlayers}" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Vertical"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <ItemContainerTemplate>
+                                    <TextBlock Text="{Binding Name}"></TextBlock>
+                                </ItemContainerTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </Grid>
+                </Border>
                 <!-- Center Middle Area -->
-                <Rectangle Grid.Column="1" Fill="Azure" />
+                <Border Grid.Column="1" BorderBrush="Gray" BorderThickness="0.1" MouseLeftButtonDown="CenterMiddleAreaClick">
+                    <Grid Background="Transparent">
+                        <ItemsControl ItemsSource="{Binding CenterMiddlePlayers}" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Vertical"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <ItemContainerTemplate>
+                                    <TextBlock Text="{Binding Name}"></TextBlock>
+                                </ItemContainerTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </Grid>
+                </Border>
                 <!-- Right Middle Area -->
-                <Rectangle Grid.Column="2" Fill="Beige" />
+                <Border Grid.Column="2" BorderBrush="Gray" BorderThickness="0.1" MouseLeftButtonDown="RightMiddleAreaClick">
+                    <Grid Background="Transparent">
+                        <ItemsControl ItemsSource="{Binding RightMiddlePlayers}" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Vertical"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <ItemContainerTemplate>
+                                    <TextBlock Text="{Binding Name}"></TextBlock>
+                                </ItemContainerTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </Grid>
+                </Border>
             </Grid>
 
             <Grid Grid.Row="2">
@@ -68,11 +148,56 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <!-- Left Defense Area -->
-                <Rectangle Grid.Column="0" Fill="Bisque" />
+                <Border Grid.Column="0" BorderBrush="Gray" BorderThickness="0.1" MouseLeftButtonDown="LeftDefenseAreaClick">
+                    <Grid Background="Transparent">
+                        <ItemsControl ItemsSource="{Binding LeftDefensePlayers}" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Vertical"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <ItemContainerTemplate>
+                                    <TextBlock Text="{Binding Name}"></TextBlock>
+                                </ItemContainerTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </Grid>
+                </Border>
                 <!-- Center Defense Area -->
-                <Rectangle Grid.Column="1" Fill="Black" />
+                <Border Grid.Column="1" BorderBrush="Gray" BorderThickness="0.1" MouseLeftButtonDown="CenterDefenseAreaClick">
+                    <Grid Background="Transparent">
+                        <ItemsControl ItemsSource="{Binding CenterDefensePlayers}" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Vertical"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <ItemContainerTemplate>
+                                    <TextBlock Text="{Binding Name}"></TextBlock>
+                                </ItemContainerTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </Grid>
+                </Border>
                 <!-- Right Defense Area -->
-                <Rectangle Grid.Column="2" Fill="BlanchedAlmond" />
+                <Border Grid.Column="2" BorderBrush="Gray" BorderThickness="0.1" MouseLeftButtonDown="RightDefenseAreaClick">
+                    <Grid Background="Transparent">
+                        <ItemsControl ItemsSource="{Binding RightDefensePlayers}" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Vertical"/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <ItemContainerTemplate>
+                                    <TextBlock Text="{Binding Name}"></TextBlock>
+                                </ItemContainerTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </Grid>
+                </Border>
             </Grid>
 
             <Grid Grid.Row="3">
@@ -82,11 +207,15 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <!-- Not an area -->
-                <Rectangle Grid.Column="0" Fill="Bisque" />
+                <Rectangle Grid.Column="0" Fill="Transparent" />
                 <!-- Goal Keeper Area -->
-                <Rectangle Grid.Column="1" Fill="Black" />
+                <Border Grid.Column="1" BorderBrush="Gray" BorderThickness="0.1" MouseLeftButtonDown="GoalKeeperAreaClick">
+                    <Grid Background="Transparent">
+                        <TextBlock Text="{Binding GoalKeeperPlayer.Name}" VerticalAlignment="Bottom" HorizontalAlignment="Center"></TextBlock>
+                    </Grid>
+                </Border>
                 <!-- Not an Area -->
-                <Rectangle Grid.Column="2" Fill="BlanchedAlmond" />
+                <Rectangle Grid.Column="2" Fill="Transparent" />
             </Grid>
 
         </Grid>
@@ -101,9 +230,14 @@
                 </ItemsControl.ItemsPanel>
                 <ItemsControl.ItemTemplate>
                     <ItemContainerTemplate>
-                        <StackPanel>
-                            <ToggleButton Content="{Binding Name}" IsChecked="{Binding IsPlayerChecked, Mode=TwoWay}"/>
-                        </StackPanel>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions> 
+                            <ToggleButton Grid.Column="0" Content="{Binding Name}" IsChecked="{Binding IsPlayerChecked, Mode=TwoWay}"/>
+                            <TextBlock Grid.Column="1" Text="{Binding Area}"/>
+                        </Grid>
                     </ItemContainerTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
