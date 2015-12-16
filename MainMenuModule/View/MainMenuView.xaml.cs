@@ -25,5 +25,10 @@ namespace MainMenuModule
         {
             InitializeComponent();
         }
+
+        private void NewGameClick(object sender, RoutedEventArgs e)
+        {
+            CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToConfigurationGameEvent>().Publish(string.Empty);
+        }
     }
 }

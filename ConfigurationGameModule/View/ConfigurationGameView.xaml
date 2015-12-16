@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="ConfigurationGameModule.ConfigurationGameView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <UserControl.Resources>
+        <ResourceDictionary Source="pack://application:,,,/CommonLibrary;component/Resources/Colors.xaml"/>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="0"> Nom du Club </TextBlock>
+            <TextBox Grid.Column="1"/>
+        </Grid>
+
+        <Button Grid.Row="1" VerticalAlignment="Bottom"> Commencer </Button>
+
+    </Grid>
+    
+</UserControl>

@@ -315,6 +315,7 @@ namespace TacticModule
                 playerViewModel.Attack = teamPlayer.Attack;
                 playerViewModel.Defense = teamPlayer.Defense;
                 playerViewModel.Name = teamPlayer.Name;
+                playerViewModel.Number = teamPlayer.Number;
                 playerViewModel.Position = teamPlayer.Position;
                 playerViewModel.PlayerSelectedEvent += playerSelectedEvent;
                 Players.Add(playerViewModel);

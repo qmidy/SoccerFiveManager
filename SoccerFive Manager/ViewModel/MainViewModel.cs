@@ -1,6 +1,7 @@
 ﻿using CalendarModule;
 using ClubModule;
 using CommonLibrary;
+using ConfigurationGameModule;
 using MainMenuModule;
 using MatchEngineModule;
 using System;
@@ -145,6 +146,7 @@ namespace Main
             CalendarService.AddEvent(new CommonCalendarEvent() { EventName = "TestEvent2" }, 0);
             CalendarService.AddEvent(new CommonCalendarEvent() { EventName = "TestEvent3" }, 1);
             CalendarService.AddEvent(new CommonCalendarEvent() { EventName = "TestEvent" }, 2);
+            CalendarService.AddEvent(new CommonCalendarEvent() { EventName = "TestEvent5" }, 5);
             CalendarService.AddEvent(new CommonCalendarEvent() { EventName = "TestEvent2" }, 3);
             CalendarService.AddEvent(new CommonCalendarEvent() { EventName = "TestEvent3" }, 4);
             CalendarService.AddEvent(new CommonCalendarEvent() { EventName = "TestEvent" }, 5);
@@ -163,6 +165,7 @@ namespace Main
             CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToMainMenuEvent>().Subscribe(GoToMainMenuCallBack);
             CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToMatchEngineEvent>().Subscribe(GoToMacthEngineCallBack);
             CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToCalendarEvent>().Subscribe(GoToCalendarEventCallBack);
+            CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToConfigurationGameEvent>().Subscribe(GoToConfigurationGameCallBack);
             CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToClubEvent>().Subscribe(GoToClubEventCallBack);
             CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToTeamEvent>().Subscribe(GoToTeamEventCallBack);
             CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToTacticEvent>().Subscribe(GoToTacticEventCallBack);
@@ -192,6 +195,12 @@ namespace Main
             MainContent = calendarModuleFactory.CreateView();
         }
 
+        private void GoToConfigurationGameCallBack(string arg)
+        {
+            ConfigurationGameModuleFactory configurationGameModuleFactory = new ConfigurationGameModuleFactory();
+            MainContent = configurationGameModuleFactory.CreateView();
+        }
+
         private void GoToClubEventCallBack(IClub arg)
         {
             ClubModuleFactory clubModuleFactory = new ClubModuleFactory();
@@ -218,11 +227,11 @@ namespace Main
             TacticModuleFactory tacticModuleFactory = new TacticModuleFactory();
             //MainContent = teamModuleFactory.CreateView(arg);
             List<IPlayer> players = new List<IPlayer>();
-            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom1" });
-            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom2" });
-            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom3" });
-            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom4" });
-            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom5" });
+            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom1", Number = 1 });
+            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom2", Number = 2 });
+            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom3", Number = 3 });
+            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom4", Number = 4 });
+            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom5", Number = 5 });
             ITeam team = new Team() { Players = players };
             MainContent = tacticModuleFactory.CreateView(team);
         }

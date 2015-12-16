@@ -4,7 +4,7 @@
 library
 C#
 .cs
-d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\MatchEngineModule\obj\Debug\
+E:\SoccerFiveManagerGit\SoccerFiveManager\MatchEngineModule\obj\Debug\
 MatchEngineModule
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 1-1713028762
 
 7-1397550695
-64902346861
+64315834679
 View\MatchEngineView.xaml;
 
 False

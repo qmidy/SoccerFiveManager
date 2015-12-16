@@ -4,7 +4,7 @@
 library
 C#
 .cs
-d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\ClubModule\obj\x86\Debug\
+E:\SoccerFiveManagerGit\SoccerFiveManager\ClubModule\obj\x86\Debug\
 ClubModule
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 11062905672
 
 71884711357
-63209843786
+63795927927
 View\ClubView.xaml;
 
 False

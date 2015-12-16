@@ -33,6 +33,8 @@ namespace CommonLibrary
 
         EnumArea Area { get; set; }
 
+        int Number { get; set; }
+
         string Name { get; set; }
 
         int Attack { get; set; }
