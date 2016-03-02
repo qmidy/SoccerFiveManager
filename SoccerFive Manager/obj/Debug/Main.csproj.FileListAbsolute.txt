@@ -61,8 +61,6 @@ d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\Debug\SoccerFive Manager.exe
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\Debug\SoccerFive Manager.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\SoccerFive Manager.exe.config
-C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager.exe
-C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\SoccerFive Manager.exe
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\SoccerFive Manager.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\CalendarModule.dll
@@ -98,3 +96,5 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\MainW
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager.g.resources
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\Main.Properties.Resources.resources
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\Main.csproj.GenerateResource.Cache
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager.exe
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager.pdb

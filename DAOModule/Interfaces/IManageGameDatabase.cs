@@ -7,8 +7,6 @@ namespace DAOModule
 {
     public interface IManageGameDatabase
     {
-        void CreateGameDatabase(string clubName);
-
-        List<object> GetPlayers(string clubName);
+        void CreateGameDatabase();
     }
 }

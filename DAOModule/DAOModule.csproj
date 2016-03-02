@@ -40,8 +40,9 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="SQLite.NET">
-      <HintPath>..\..\SQLite.NET.0.21_x68_dll\SQLite.NET.dll</HintPath>
+    <Reference Include="SQLite.NET, Version=0.21.1869.3794, Culture=neutral, PublicKeyToken=c273bd375e695f9c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\SQLite\SQLite.NET.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -58,8 +59,11 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DaoCommon\CommonDatabase.cs" />
     <Compile Include="Dao\ManageGameDatabase.cs" />
+    <Compile Include="Dao\ManagePlayerDatabase.cs" />
     <Compile Include="Interfaces\IManageGameDatabase.cs" />
+    <Compile Include="Interfaces\IManagePlayerDatabase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

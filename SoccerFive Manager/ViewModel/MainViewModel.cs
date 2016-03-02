@@ -183,6 +183,7 @@ namespace Main
             IModuleFactory<IMainMenuModuleViewModel> mainMenuModuleFactory = new MainMenuModuleFactory();
             MainContent = mainMenuModuleFactory.CreateView(null);
         }
+
         private void GoToMacthEngineCallBack(string arg)
         {
             IModuleFactory<IMatchEngineModuleViewModel> matchEngineModuleFactory = new MatchEngineModuleFactory();

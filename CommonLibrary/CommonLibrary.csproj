@@ -72,6 +72,7 @@
     <Compile Include="Interfaces\IModuleFactory.cs" />
     <Compile Include="Interfaces\IModuleService.cs" />
     <Compile Include="Interfaces\IModuleViewModel.cs" />
+    <Compile Include="PersistedItems\PersistedItems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

@@ -7,66 +7,22 @@ using System.Data;
 
 namespace DAOModule
 {
-    public class ManageGameDatabase : IManageGameDatabase
+    public class ManageGameDatabase : CommonDatabase, IManageGameDatabase
     {
         #region constructor
 
-        public ManageGameDatabase(string clubName)
+        public ManageGameDatabase()
         {
-            this.clubNameClass = clubName;
         }
 
         #endregion
 
-        #region private
-
-        private SQLiteConnection sql_con;
-        private SQLiteCommand sql_cmd;
-        private SQLiteDataAdapter DB;
         private DataSet DS = new DataSet();
         private DataTable DT = new DataTable();
 
-        private string clubNameClass;
-
-        private void SetConnection()
+        public void CreateGameDatabase()
         {
-            sql_con = new SQLiteConnection("Data Source=" + clubNameClass + ".db;Version=3;Compress=True;");
-        }
-
-        private void ExecuteNonQuery(string txtQuery)
-        {
-            SetConnection();
-            sql_con.Open();
-            sql_cmd = sql_con.CreateCommand();
-            sql_cmd.CommandText = txtQuery;
-            sql_cmd.ExecuteNonQuery();
-            sql_con.Close();
-        }
-
-        private List<Object> ExecuteReader(string txtQuery)
-        {
-            List<Object> result = new List<object>();
-            SetConnection();
-            sql_con.Open();
-            sql_cmd = sql_con.CreateCommand();
-            sql_cmd.CommandText = txtQuery;
-            var resultReader = sql_cmd.ExecuteReader();
-            while (resultReader.Read())
-            {
-                for(int i = 0; i < resultReader.FieldCount; ++i)
-                {
-                    result.Add(resultReader.GetValue(i));
-                }
-            }
-            sql_con.Close();
-            return result;
-        }
-
-        #endregion
-
-        public void CreateGameDatabase(string clubName)
-        {
-            var sqlcon = new SQLiteConnection("Data Source=" + clubNameClass + ".db;New=True;Version=3;Compress=True;");
+            var sqlcon = new SQLiteConnection("Data Source=" + CommonDatabase.ClubName + ".db;New=True;Version=3;Compress=True;");
             var sqlcommand = new SQLiteCommand();
             // Création des tables pour le club et l'équipe
             sqlcon.Open();
@@ -79,15 +35,25 @@ namespace DAOModule
             sqlcommand = sqlcon.CreateCommand();
             sqlcommand.CommandText = "CREATE TABLE club (id INT NOT NULL PRIMARY KEY, name VARCHAR(20))";
             sqlcommand.ExecuteNonQuery();
-            
+
+            // Déclaration de la table Team
+            sqlcommand = sqlcon.CreateCommand();
+            sqlcommand.CommandText = "CREATE TABLE team (id INT NOT NULL PRIMARY KEY, club_id INT,  FOREIGN KEY (club_id) REFERENCES club(id))";
+            sqlcommand.ExecuteNonQuery();
+
             // Déclaration de la table Player
             sqlcommand = sqlcon.CreateCommand();
-            sqlcommand.CommandText = "CREATE TABLE player (id INT NOT NULL PRIMARY KEY, name VARCHAR(20), club_id INT, area INT, number INT, attack INT, defense INT, FOREIGN KEY (club_id) REFERENCES club(id))";
+            sqlcommand.CommandText = "CREATE TABLE player (id INT NOT NULL PRIMARY KEY, name VARCHAR(20), team_id INT, area INT, number INT, attack INT, defense INT, FOREIGN KEY (team_id) REFERENCES team(id))";
             sqlcommand.ExecuteNonQuery();
 
             // Ajout de la ligne correspondant au Club
             sqlcommand = sqlcon.CreateCommand();
-            sqlcommand.CommandText = "INSERT INTO club VALUES ('1','"+clubName+"')";
+            sqlcommand.CommandText = "INSERT INTO club VALUES ('1','" + CommonDatabase.ClubName + "')";
+            sqlcommand.ExecuteNonQuery();
+
+            // Ajout de la ligne correspondant à la Team qui référence le club précédemment créé
+            sqlcommand = sqlcon.CreateCommand();
+            sqlcommand.CommandText = "INSERT INTO team VALUES ('1','1')";
             sqlcommand.ExecuteNonQuery();
 
             // Ajout des lignes correspondant aux Joueurs
@@ -128,10 +94,21 @@ namespace DAOModule
             sqlcommand.CommandText = "INSERT INTO club VALUES ('2','" + "Club2" + "')";
             sqlcommand.ExecuteNonQuery();
             sqlcommand = sql_con.CreateCommand();
+            sqlcommand.CommandText = "INSERT INTO team VALUES ('2','2')";
+            sqlcommand.ExecuteNonQuery();
+
+            sqlcommand = sql_con.CreateCommand();
             sqlcommand.CommandText = "INSERT INTO club VALUES ('3','" + "Club3" + "')";
             sqlcommand.ExecuteNonQuery();
             sqlcommand = sql_con.CreateCommand();
+            sqlcommand.CommandText = "INSERT INTO team VALUES ('3','3')";
+            sqlcommand.ExecuteNonQuery();
+
+            sqlcommand = sql_con.CreateCommand();
             sqlcommand.CommandText = "INSERT INTO club VALUES ('4','" + "Club4" + "')";
+            sqlcommand.ExecuteNonQuery();
+            sqlcommand = sql_con.CreateCommand();
+            sqlcommand.CommandText = "INSERT INTO team VALUES ('4','4')";
             sqlcommand.ExecuteNonQuery();
 
             // Insertions des joueurs
@@ -184,12 +161,6 @@ namespace DAOModule
             sqlcommand.ExecuteNonQuery();
 
             sql_con.Close();
-        }
-
-        public List<object> GetPlayers(string clubName)
-        {
-            var clubId = ExecuteReader("SELECT * FROM club WHERE name = '" + clubName + "'").First();
-            return ExecuteReader("SELECT * FROM player WHERE club_id = " + clubId);
         }
     }
 }

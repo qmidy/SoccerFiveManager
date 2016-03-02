@@ -8,24 +8,22 @@ namespace CommonLibrary
 {
     public static class DaoService
     {
-        public static string clubNameStatic;
-
         public static void CreateGameDatabase(string clubName)
         {
-            clubNameStatic = clubName;
-            IManageGameDatabase manageGameDatabase = new ManageGameDatabase(clubName);
-            manageGameDatabase.CreateGameDatabase(clubName);
+            CommonDatabase.ClubName = clubName;
+            IManageGameDatabase manageGameDatabase = new ManageGameDatabase();
+            manageGameDatabase.CreateGameDatabase();
         }
 
         public static List<IPlayer> GetPlayers()
         {
             List<IPlayer> result = new List<IPlayer>();
 
-            IManageGameDatabase manageGameDatabase = new ManageGameDatabase(clubNameStatic);
+            IManagePlayerDatabase managePlayerDatabase = new ManagePlayerDatabase();
 
             // On récupère un tableau qui renvoie une donnée par case
             // IE => [0] : Id du joueur / [1] : Nom du joueur / [2] : Club Id / [3] : Area / [4] : Number / [5] : Attack / [6] : Defense
-            var playerObjects = manageGameDatabase.GetPlayers(clubNameStatic);
+            var playerObjects = managePlayerDatabase.GetPlayers(CommonDatabase.ClubName);
             var playersNumber = playerObjects.Count / 7;
             var playerShift = 7;
 

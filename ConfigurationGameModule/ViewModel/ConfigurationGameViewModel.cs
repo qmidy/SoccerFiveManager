@@ -32,6 +32,7 @@ namespace ConfigurationGameModule
         {
             if (!String.IsNullOrEmpty(ClubName))
             {
+                PersistedItems.clubName = ClubName;
                 DaoService.CreateGameDatabase(ClubName);
                 CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToTacticEvent>().Publish(null);
             }
