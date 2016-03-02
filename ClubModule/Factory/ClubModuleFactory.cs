@@ -10,33 +10,11 @@ namespace ClubModule
 {
     public class ClubModuleFactory : IModuleFactory<IClubModuleViewModel> 
     {
-        public UserControl CreateView()
-        {
-            throw new NotImplementedException();
-        }
-
-        public IClubModuleViewModel CreateViewModel()
-        {
-            throw new NotImplementedException();
-        }
-
-        public UserControl CreateView(IClub club)
+        public UserControl CreateView(object obj)
         {
             var clubView = new ClubView();
-            clubView.DataContext = new ClubViewModel(club);
+            clubView.DataContext = new ClubViewModel((IClub)obj);
             return clubView;
-        }
-
-        public UserControl CreateViewFromViewModel(IClubModuleViewModel viewModel)
-        {
-            var clubView = new ClubView();
-            clubView.DataContext = viewModel;
-            return clubView;
-        }
-
-        public IClubModuleViewModel CreateViewModel(IClub club)
-        {
-            return new ClubViewModel(club);
         }
     }
 }

@@ -10,23 +10,11 @@ namespace ConfigurationGameModule
 {
     public class ConfigurationGameModuleFactory : IModuleFactory<IConfigurationGameModuleViewModel> 
     {
-        public UserControl CreateView()
+        public UserControl CreateView(object obj)
         {
             var configurationGameView = new ConfigurationGameView();
             configurationGameView.DataContext = new ConfigurationGameViewModel();
             return configurationGameView;
-        }
-
-        public UserControl CreateViewFromViewModel(IConfigurationGameModuleViewModel viewModel)
-        {
-            var configurationGameView = new ConfigurationGameView();
-            configurationGameView.DataContext = viewModel;
-            return configurationGameView;
-        }
-
-        public IConfigurationGameModuleViewModel CreateViewModel()
-        {
-            return new ConfigurationGameViewModel();
         }
     }
 }

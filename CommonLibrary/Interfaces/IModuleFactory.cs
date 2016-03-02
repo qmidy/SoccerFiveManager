@@ -10,11 +10,6 @@ namespace CommonLibrary
     // Ressort l'interface du viewmodel ou du service
     public interface IModuleFactory<T> 
     {
-        UserControl CreateView();
-
-        UserControl CreateViewFromViewModel(T viewModel);
-
-        T CreateViewModel();
-
+        UserControl CreateView(object obj);
     }
 }

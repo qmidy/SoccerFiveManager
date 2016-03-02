@@ -10,23 +10,11 @@ namespace MatchEngineModule
 {
     public class MatchEngineModuleFactory : IModuleFactory<IMatchEngineModuleViewModel> 
     {
-        public UserControl CreateView()
+        public UserControl CreateView(object obj)
         {
             var mainMenuView = new MatchEngineView();
             mainMenuView.DataContext = new MatchEngineViewModel();
             return mainMenuView;
-        }
-
-        public UserControl CreateViewFromViewModel(IMatchEngineModuleViewModel viewModel)
-        {
-            var mainMenuView = new MatchEngineView();
-            mainMenuView.DataContext = viewModel;
-            return mainMenuView;
-        }
-
-        public IMatchEngineModuleViewModel CreateViewModel()
-        {
-            return new MatchEngineViewModel();
         }
     }
 }

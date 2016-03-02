@@ -171,46 +171,46 @@ namespace Main
             CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToTacticEvent>().Subscribe(GoToTacticEventCallBack);
 
             // Implémentation des views et des viewmodels
-            MainMenuModuleFactory mainMenuModuleFactory = new MainMenuModuleFactory();
-            MainContent = mainMenuModuleFactory.CreateView();
-            TopBannerModuleFactory topBannerModuleFactory = new TopBannerModuleFactory();
-            TopBannerContent = topBannerModuleFactory.CreateView();
+            IModuleFactory<IMainMenuModuleViewModel> mainMenuModuleFactory = new MainMenuModuleFactory();
+            MainContent = mainMenuModuleFactory.CreateView(null);
+            IModuleFactory<ITopBannerModuleViewModel> topBannerModuleFactory = new TopBannerModuleFactory();
+            TopBannerContent = topBannerModuleFactory.CreateView(null);
         }
 
         #region Go To View Private Methods
         private void GoToMainMenuCallBack(string arg)
         {
-            MainMenuModuleFactory mainMenuModuleFactory = new MainMenuModuleFactory();
-            MainContent = mainMenuModuleFactory.CreateView();
+            IModuleFactory<IMainMenuModuleViewModel> mainMenuModuleFactory = new MainMenuModuleFactory();
+            MainContent = mainMenuModuleFactory.CreateView(null);
         }
         private void GoToMacthEngineCallBack(string arg)
         {
-            MatchEngineModuleFactory matchEngineModuleFactory = new MatchEngineModuleFactory();
-            MainContent = matchEngineModuleFactory.CreateView();
+            IModuleFactory<IMatchEngineModuleViewModel> matchEngineModuleFactory = new MatchEngineModuleFactory();
+            MainContent = matchEngineModuleFactory.CreateView(null);
         }
 
         private void GoToCalendarEventCallBack(string arg)
         {
-            CalendarModuleFactory calendarModuleFactory = new CalendarModuleFactory();
-            MainContent = calendarModuleFactory.CreateView();
+            IModuleFactory<ICalendarModuleViewModel> calendarModuleFactory = new CalendarModuleFactory();
+            MainContent = calendarModuleFactory.CreateView(null);
         }
 
         private void GoToConfigurationGameCallBack(string arg)
         {
-            ConfigurationGameModuleFactory configurationGameModuleFactory = new ConfigurationGameModuleFactory();
-            MainContent = configurationGameModuleFactory.CreateView();
+            IModuleFactory<IConfigurationGameModuleViewModel> configurationGameModuleFactory = new ConfigurationGameModuleFactory();
+            MainContent = configurationGameModuleFactory.CreateView(null);
         }
 
         private void GoToClubEventCallBack(IClub arg)
         {
-            ClubModuleFactory clubModuleFactory = new ClubModuleFactory();
-            //MainContent = clubModuleFactory.CreateView(arg);3
+            IModuleFactory<IClubModuleViewModel> clubModuleFactory = new ClubModuleFactory();
+            //MainContent = clubModuleFactory.CreateView(arg);
             MainContent = clubModuleFactory.CreateView(new Club() { Name = "Nom du club" });
         }
 
         private void GoToTeamEventCallBack(ITeam arg)
         {
-            TeamModuleFactory teamModuleFactory = new TeamModuleFactory();
+            IModuleFactory<ITeamModuleViewModel> teamModuleFactory = new TeamModuleFactory();
             //MainContent = teamModuleFactory.CreateView(arg);
             ITeam team = new Team() { Players = DaoService.GetPlayers() };
             MainContent = teamModuleFactory.CreateView(team);
@@ -218,7 +218,7 @@ namespace Main
 
         private void GoToTacticEventCallBack(ITeam arg)
         {
-            TacticModuleFactory tacticModuleFactory = new TacticModuleFactory();
+            IModuleFactory<ITacticModuleViewModel> tacticModuleFactory = new TacticModuleFactory();
             //MainContent = teamModuleFactory.CreateView(arg);
             ITeam team = new Team() { Players = DaoService.GetPlayers() };
             MainContent = tacticModuleFactory.CreateView(team);

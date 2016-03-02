@@ -10,33 +10,11 @@ namespace TeamModule
 {
     public class TeamModuleFactory : IModuleFactory<ITeamModuleViewModel> 
     {
-        public UserControl CreateView()
-        {
-            throw new NotImplementedException();
-        }
-
-        public ITeamModuleViewModel CreateViewModel()
-        {
-            throw new NotImplementedException();
-        }
-
-        public UserControl CreateView(ITeam team)
+        public UserControl CreateView(object obj)
         {
             var teamView = new TeamView();
-            teamView.DataContext = new TeamViewModel(team);
+            teamView.DataContext = new TeamViewModel((ITeam)obj);
             return teamView;
-        }
-
-        public UserControl CreateViewFromViewModel(ITeamModuleViewModel viewModel)
-        {
-            var teamView = new TeamView();
-            teamView.DataContext = viewModel;
-            return teamView;
-        }
-
-        public ITeamModuleViewModel CreateViewModel(ITeam team)
-        {
-            return new TeamViewModel(team);
         }
     }
 }

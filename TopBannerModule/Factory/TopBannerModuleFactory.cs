@@ -10,7 +10,7 @@ namespace TopBannerModule
 {
     public class TopBannerModuleFactory : IModuleFactory<ITopBannerModuleViewModel> 
     {
-        public UserControl CreateView()
+        public UserControl CreateView(object obj)
         {
             var topBannerView = new TopBannerView();
             topBannerView.DataContext = new TopBannerViewModel();

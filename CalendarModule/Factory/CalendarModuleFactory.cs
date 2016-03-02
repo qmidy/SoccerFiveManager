@@ -10,23 +10,11 @@ namespace CalendarModule
 {
     public class CalendarModuleFactory : IModuleFactory<ICalendarModuleViewModel> 
     {
-        public UserControl CreateView()
+        public UserControl CreateView(object obj)
         {
             var calendarView = new CalendarView();
             calendarView.DataContext = new CalendarViewModel();
             return calendarView;
-        }
-
-        public UserControl CreateViewFromViewModel(ICalendarModuleViewModel viewModel)
-        {
-            var calendarView = new CalendarView();
-            calendarView.DataContext = viewModel;
-            return calendarView;
-        }
-
-        public ICalendarModuleViewModel CreateViewModel()
-        {
-            return new CalendarViewModel();
         }
     }
 }

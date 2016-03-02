@@ -10,23 +10,11 @@ namespace MainMenuModule
 {
     public class MainMenuModuleFactory : IModuleFactory<IMainMenuModuleViewModel> 
     {
-        public UserControl CreateView()
+        public UserControl CreateView(object obj)
         {
             var mainMenuView = new MainMenuView();
             mainMenuView.DataContext = new MainMenuViewModel();
             return mainMenuView;
-        }
-
-        public UserControl CreateViewFromViewModel(IMainMenuModuleViewModel viewModel)
-        {
-            var mainMenuView = new MainMenuView();
-            mainMenuView.DataContext = viewModel;
-            return mainMenuView;
-        }
-
-        public IMainMenuModuleViewModel CreateViewModel()
-        {
-            return new MainMenuViewModel();
         }
     }
 }
