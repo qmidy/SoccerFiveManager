@@ -498,89 +498,6 @@
     </timestamps>
     <violations />
   </sourcecode>
-  <sourcecode name=".NETFramework,Version=v4.5.AssemblyAttributes.cs" parser="StyleCop.CSharp.CsParser">
-    <timestamps>
-      <styleCop>2014/10/03 16:11:44.000</styleCop>
-      <settingsFile>2015/08/24 10:39:03.844</settingsFile>
-      <sourceFile>2015/12/10 10:25:05.633</sourceFile>
-      <parser>2014/10/03 16:11:44.000</parser>
-      <Dcns.Rules.StyleCopRules.RDBLOCIF03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCIF03>
-      <Dcns.Rules.StyleCopRules.RDBLOCIF03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCIF03.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDEXPR07>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDEXPR07>
-      <Dcns.Rules.StyleCopRules.RDEXPR07.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDEXPR07.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDMISC04>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDMISC04>
-      <Dcns.Rules.StyleCopRules.RDMISC04.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDMISC04.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDCOD03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDCOD03>
-      <Dcns.Rules.StyleCopRules.RDCOD03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDCOD03.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDNOM07>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDNOM07>
-      <Dcns.Rules.StyleCopRules.RDNOM07.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDNOM07.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDEXPR04>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDEXPR04>
-      <Dcns.Rules.StyleCopRules.RDEXPR04.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDEXPR04.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDPRESENT02>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDPRESENT02>
-      <Dcns.Rules.StyleCopRules.RDPRESENT02.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDPRESENT02.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDERR04>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDERR04>
-      <Dcns.Rules.StyleCopRules.RDERR04.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDERR04.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDCLASS01>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDCLASS01>
-      <Dcns.Rules.StyleCopRules.RDCLASS01.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDCLASS01.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDEXPR06>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDEXPR06>
-      <Dcns.Rules.StyleCopRules.RDEXPR06.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDEXPR06.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDPRESENT03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDPRESENT03>
-      <Dcns.Rules.StyleCopRules.RDPRESENT03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDPRESENT03.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDEXPR03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDEXPR03>
-      <Dcns.Rules.StyleCopRules.RDEXPR03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDEXPR03.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDERR03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDERR03>
-      <Dcns.Rules.StyleCopRules.RDERR03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDERR03.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDMISC01>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDMISC01>
-      <Dcns.Rules.StyleCopRules.RDMISC01.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDMISC01.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDBLOCSW02>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCSW02>
-      <Dcns.Rules.StyleCopRules.RDBLOCSW02.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCSW02.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDEXPR02>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDEXPR02>
-      <Dcns.Rules.StyleCopRules.RDEXPR02.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDEXPR02.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDPRESENTHEAD03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDPRESENTHEAD03>
-      <Dcns.Rules.StyleCopRules.RDPRESENTHEAD03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDPRESENTHEAD03.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDBLOCSW01>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCSW01>
-      <Dcns.Rules.StyleCopRules.RDBLOCSW01.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCSW01.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDBLOCFOR03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCFOR03>
-      <Dcns.Rules.StyleCopRules.RDBLOCFOR03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCFOR03.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDBLOCFOR02>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCFOR02>
-      <Dcns.Rules.StyleCopRules.RDBLOCFOR02.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCFOR02.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDBLOCFOR01>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCFOR01>
-      <Dcns.Rules.StyleCopRules.RDBLOCFOR01.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCFOR01.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDPROJ07>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDPROJ07>
-      <Dcns.Rules.StyleCopRules.RDPROJ07.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDPROJ07.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDEXPR01>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDEXPR01>
-      <Dcns.Rules.StyleCopRules.RDEXPR01.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDEXPR01.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDMISC03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDMISC03>
-      <Dcns.Rules.StyleCopRules.RDMISC03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDMISC03.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDBLOCSW04>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCSW04>
-      <Dcns.Rules.StyleCopRules.RDBLOCSW04.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCSW04.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDBLOCIF01>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCIF01>
-      <Dcns.Rules.StyleCopRules.RDBLOCIF01.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCIF01.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDBLOCIF02>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCIF02>
-      <Dcns.Rules.StyleCopRules.RDBLOCIF02.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCIF02.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDBLOC04>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOC04>
-      <Dcns.Rules.StyleCopRules.RDBLOC04.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOC04.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDTYPE03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDTYPE03>
-      <Dcns.Rules.StyleCopRules.RDTYPE03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDTYPE03.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDBLOC01>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOC01>
-      <Dcns.Rules.StyleCopRules.RDBLOC01.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOC01.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDNOM04>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDNOM04>
-      <Dcns.Rules.StyleCopRules.RDNOM04.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDNOM04.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDNOM03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDNOM03>
-      <Dcns.Rules.StyleCopRules.RDNOM03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDNOM03.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDPRESENTHEAD02>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDPRESENTHEAD02>
-      <Dcns.Rules.StyleCopRules.RDPRESENTHEAD02.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDPRESENTHEAD02.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDPRESENTHEAD01>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDPRESENTHEAD01>
-      <Dcns.Rules.StyleCopRules.RDPRESENTHEAD01.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDPRESENTHEAD01.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDPRESENT05>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDPRESENT05>
-      <Dcns.Rules.StyleCopRules.RDPRESENT05.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDPRESENT05.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDPRESENT04>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDPRESENT04>
-      <Dcns.Rules.StyleCopRules.RDPRESENT04.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDPRESENT04.FilesHashCode>
-      <Dcns.Rules.StyleCopRules.RDPROJ03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDPROJ03>
-      <Dcns.Rules.StyleCopRules.RDPROJ03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDPROJ03.FilesHashCode>
-    </timestamps>
-    <violations />
-  </sourcecode>
   <sourcecode name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2014/10/03 16:11:44.000</styleCop>
@@ -835,6 +752,89 @@
       <styleCop>2014/10/03 16:11:44.000</styleCop>
       <settingsFile>2015/08/24 10:39:03.844</settingsFile>
       <sourceFile>2015/12/16 17:13:38.117</sourceFile>
+      <parser>2014/10/03 16:11:44.000</parser>
+      <Dcns.Rules.StyleCopRules.RDBLOCIF03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCIF03>
+      <Dcns.Rules.StyleCopRules.RDBLOCIF03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCIF03.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDEXPR07>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDEXPR07>
+      <Dcns.Rules.StyleCopRules.RDEXPR07.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDEXPR07.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDMISC04>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDMISC04>
+      <Dcns.Rules.StyleCopRules.RDMISC04.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDMISC04.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDCOD03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDCOD03>
+      <Dcns.Rules.StyleCopRules.RDCOD03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDCOD03.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDNOM07>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDNOM07>
+      <Dcns.Rules.StyleCopRules.RDNOM07.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDNOM07.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDEXPR04>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDEXPR04>
+      <Dcns.Rules.StyleCopRules.RDEXPR04.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDEXPR04.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDPRESENT02>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDPRESENT02>
+      <Dcns.Rules.StyleCopRules.RDPRESENT02.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDPRESENT02.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDERR04>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDERR04>
+      <Dcns.Rules.StyleCopRules.RDERR04.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDERR04.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDCLASS01>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDCLASS01>
+      <Dcns.Rules.StyleCopRules.RDCLASS01.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDCLASS01.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDEXPR06>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDEXPR06>
+      <Dcns.Rules.StyleCopRules.RDEXPR06.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDEXPR06.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDPRESENT03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDPRESENT03>
+      <Dcns.Rules.StyleCopRules.RDPRESENT03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDPRESENT03.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDEXPR03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDEXPR03>
+      <Dcns.Rules.StyleCopRules.RDEXPR03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDEXPR03.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDERR03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDERR03>
+      <Dcns.Rules.StyleCopRules.RDERR03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDERR03.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDMISC01>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDMISC01>
+      <Dcns.Rules.StyleCopRules.RDMISC01.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDMISC01.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDBLOCSW02>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCSW02>
+      <Dcns.Rules.StyleCopRules.RDBLOCSW02.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCSW02.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDEXPR02>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDEXPR02>
+      <Dcns.Rules.StyleCopRules.RDEXPR02.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDEXPR02.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDPRESENTHEAD03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDPRESENTHEAD03>
+      <Dcns.Rules.StyleCopRules.RDPRESENTHEAD03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDPRESENTHEAD03.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDBLOCSW01>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCSW01>
+      <Dcns.Rules.StyleCopRules.RDBLOCSW01.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCSW01.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDBLOCFOR03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCFOR03>
+      <Dcns.Rules.StyleCopRules.RDBLOCFOR03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCFOR03.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDBLOCFOR02>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCFOR02>
+      <Dcns.Rules.StyleCopRules.RDBLOCFOR02.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCFOR02.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDBLOCFOR01>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCFOR01>
+      <Dcns.Rules.StyleCopRules.RDBLOCFOR01.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCFOR01.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDPROJ07>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDPROJ07>
+      <Dcns.Rules.StyleCopRules.RDPROJ07.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDPROJ07.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDEXPR01>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDEXPR01>
+      <Dcns.Rules.StyleCopRules.RDEXPR01.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDEXPR01.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDMISC03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDMISC03>
+      <Dcns.Rules.StyleCopRules.RDMISC03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDMISC03.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDBLOCSW04>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCSW04>
+      <Dcns.Rules.StyleCopRules.RDBLOCSW04.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCSW04.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDBLOCIF01>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCIF01>
+      <Dcns.Rules.StyleCopRules.RDBLOCIF01.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCIF01.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDBLOCIF02>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCIF02>
+      <Dcns.Rules.StyleCopRules.RDBLOCIF02.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCIF02.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDBLOC04>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOC04>
+      <Dcns.Rules.StyleCopRules.RDBLOC04.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOC04.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDTYPE03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDTYPE03>
+      <Dcns.Rules.StyleCopRules.RDTYPE03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDTYPE03.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDBLOC01>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOC01>
+      <Dcns.Rules.StyleCopRules.RDBLOC01.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOC01.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDNOM04>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDNOM04>
+      <Dcns.Rules.StyleCopRules.RDNOM04.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDNOM04.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDNOM03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDNOM03>
+      <Dcns.Rules.StyleCopRules.RDNOM03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDNOM03.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDPRESENTHEAD02>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDPRESENTHEAD02>
+      <Dcns.Rules.StyleCopRules.RDPRESENTHEAD02.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDPRESENTHEAD02.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDPRESENTHEAD01>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDPRESENTHEAD01>
+      <Dcns.Rules.StyleCopRules.RDPRESENTHEAD01.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDPRESENTHEAD01.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDPRESENT05>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDPRESENT05>
+      <Dcns.Rules.StyleCopRules.RDPRESENT05.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDPRESENT05.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDPRESENT04>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDPRESENT04>
+      <Dcns.Rules.StyleCopRules.RDPRESENT04.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDPRESENT04.FilesHashCode>
+      <Dcns.Rules.StyleCopRules.RDPROJ03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDPROJ03>
+      <Dcns.Rules.StyleCopRules.RDPROJ03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDPROJ03.FilesHashCode>
+    </timestamps>
+    <violations />
+  </sourcecode>
+  <sourcecode name=".NETFramework,Version=v4.5.AssemblyAttributes.cs" parser="StyleCop.CSharp.CsParser">
+    <timestamps>
+      <styleCop>2014/10/03 16:11:44.000</styleCop>
+      <settingsFile>2015/08/24 10:39:03.844</settingsFile>
+      <sourceFile>2015/12/17 09:49:31.495</sourceFile>
       <parser>2014/10/03 16:11:44.000</parser>
       <Dcns.Rules.StyleCopRules.RDBLOCIF03>2014/10/03 16:11:44.000</Dcns.Rules.StyleCopRules.RDBLOCIF03>
       <Dcns.Rules.StyleCopRules.RDBLOCIF03.FilesHashCode>0</Dcns.Rules.StyleCopRules.RDBLOCIF03.FilesHashCode>

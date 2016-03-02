@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CommonLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,11 @@ namespace ConfigurationGameModule
         public ConfigurationGameView()
         {
             InitializeComponent();
+        }
+
+        private void CreateGameClick(object sender, RoutedEventArgs e)
+        {
+            ((sender as Button).DataContext as ConfigurationGameViewModel).CreateGame();
         }
     }
 }

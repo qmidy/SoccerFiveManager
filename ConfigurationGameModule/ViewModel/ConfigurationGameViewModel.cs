@@ -14,5 +14,27 @@ namespace ConfigurationGameModule
         {
         }
 
+        private string clubName;
+        public string ClubName
+        {
+            get
+            {
+                return clubName;
+            }
+            set
+            {
+                clubName = value;
+                OnPropertyChanged("ClubName");
+            }
+        }
+
+        public void CreateGame()
+        {
+            if (!String.IsNullOrEmpty(ClubName))
+            {
+                DaoService.CreateGameDatabase(ClubName);
+                CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToTacticEvent>().Publish(null);
+            }
+        }
     }
 }

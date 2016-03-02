@@ -212,13 +212,7 @@ namespace Main
         {
             TeamModuleFactory teamModuleFactory = new TeamModuleFactory();
             //MainContent = teamModuleFactory.CreateView(arg);
-            List<IPlayer> players = new List<IPlayer>();
-            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom1" });
-            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom2" });
-            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom3" });
-            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom4" });
-            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom5" });
-            ITeam team = new Team() { Players = players };
+            ITeam team = new Team() { Players = DaoService.GetPlayers() };
             MainContent = teamModuleFactory.CreateView(team);
         }
 
@@ -226,13 +220,7 @@ namespace Main
         {
             TacticModuleFactory tacticModuleFactory = new TacticModuleFactory();
             //MainContent = teamModuleFactory.CreateView(arg);
-            List<IPlayer> players = new List<IPlayer>();
-            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom1", Number = 1 });
-            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom2", Number = 2 });
-            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom3", Number = 3 });
-            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom4", Number = 4 });
-            players.Add(new Player() { Attack = 10, Defense = 10, Name = "Nom5", Number = 5 });
-            ITeam team = new Team() { Players = players };
+            ITeam team = new Team() { Players = DaoService.GetPlayers() };
             MainContent = tacticModuleFactory.CreateView(team);
         }
         #endregion

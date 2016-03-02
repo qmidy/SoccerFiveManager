@@ -4,7 +4,7 @@
 library
 C#
 .cs
-E:\SoccerFiveManagerGit\SoccerFiveManager\TopBannerModule\obj\x86\Debug\
+C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\obj\x86\Debug\
 TopBannerModule
 none
 false
@@ -13,8 +13,8 @@ DEBUG;TRACE
 21740480082
 
 12-806927168
-141572007013
+64-1796336557
 Popup\TopBannerMenuPopup.xaml;View\TopBannerView.xaml;
 
-False
+True
 

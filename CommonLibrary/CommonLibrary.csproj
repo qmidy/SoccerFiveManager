@@ -57,6 +57,7 @@
   <ItemGroup>
     <Compile Include="CalendarEvents\CommonCalendarEvent.cs" />
     <Compile Include="Converters\NullVisibilityConverter.cs" />
+    <Compile Include="DaoServices\DaoService.cs" />
     <Compile Include="Data\Club.cs" />
     <Compile Include="Data\IClub.cs" />
     <Compile Include="Data\IPlayer.cs" />
@@ -117,6 +118,13 @@
   <ItemGroup>
     <Resource Include="Resources\TacticGround.bmp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAOModule\DAOModule.csproj">
+      <Project>{2b8f9f95-38ba-45a9-9058-dd2db9c72609}</Project>
+      <Name>DAOModule</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

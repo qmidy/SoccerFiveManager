@@ -4,7 +4,7 @@
 library
 C#
 .cs
-E:\SoccerFiveManagerGit\SoccerFiveManager\ConfigurationGameModule\obj\x86\Debug\
+C:\Github\SoccerFiveManager\SoccerFiveManager\ConfigurationGameModule\obj\x86\Debug\
 ConfigurationGameModule
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 1427380036
 
 7-781537079
-63795927927
+64-1796336557
 View\ConfigurationGameView.xaml;
 
 False

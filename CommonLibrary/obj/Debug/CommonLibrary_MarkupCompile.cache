@@ -4,7 +4,7 @@
 library
 C#
 .cs
-E:\SoccerFiveManagerGit\SoccerFiveManager\CommonLibrary\obj\Debug\
+C:\Github\SoccerFiveManager\SoccerFiveManager\CommonLibrary\obj\Debug\
 CommonLibrary
 none
 false
@@ -12,8 +12,8 @@ DEBUG;TRACE
 
 3-1270745047
 
-21958868348
-631157139654
+22-2048498747
+64-1828072232
 Resources\Colors.xaml;Resources\Converters.xaml;Resources\Icons.xaml;
 
 False
