@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Finisar.SQLite;
 using System.Data;
+using System.Data.SQLite;
 
 namespace DAOModule
 {
@@ -13,12 +13,14 @@ namespace DAOModule
 
         public ManageGameDatabase()
         {
+            DS = new DataSet();
+            DT = new DataTable();
         }
 
         #endregion
 
-        private DataSet DS = new DataSet();
-        private DataTable DT = new DataTable();
+        private DataSet DS;
+        private DataTable DT;
 
         public void CreateGameDatabase()
         {

@@ -47,7 +47,7 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\MainMenuModule\bin\Debug\MainMenuM
 C:\Github\SoccerFiveManager\SoccerFiveManager\MainMenuModule\bin\Debug\CommonLibrary.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\MainMenuModule\bin\Debug\Prism.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\MainMenuModule\bin\Debug\DAOModule.dll
-C:\Github\SoccerFiveManager\SoccerFiveManager\MainMenuModule\bin\Debug\SQLite.NET.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\MainMenuModule\bin\Debug\System.Data.SQLite.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\MainMenuModule\bin\Debug\CommonLibrary.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\MainMenuModule\bin\Debug\Prism.xml
 C:\Github\SoccerFiveManager\SoccerFiveManager\MainMenuModule\bin\Debug\DAOModule.pdb
@@ -60,3 +60,4 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\MainMenuModule\obj\Debug\MainMenuM
 C:\Github\SoccerFiveManager\SoccerFiveManager\MainMenuModule\obj\Debug\MainMenuModule.csproj.GenerateResource.Cache
 C:\Github\SoccerFiveManager\SoccerFiveManager\MainMenuModule\obj\Debug\MainMenuModule.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\MainMenuModule\obj\Debug\MainMenuModule.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\MainMenuModule\bin\Debug\System.Data.SQLite.xml

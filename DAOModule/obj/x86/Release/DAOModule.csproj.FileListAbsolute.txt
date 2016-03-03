@@ -1,0 +1,10 @@
+C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\bin\Release\DAOModule.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\bin\Release\DAOModule.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\bin\Release\System.Data.SQLite.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\bin\Release\System.Data.SQLite.EF6.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\bin\Release\System.Data.SQLite.Linq.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\obj\x86\Release\DAOModule.csprojResolveAssemblyReference.cache
+C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\obj\x86\Release\DAOModule.Properties.Resources.resources
+C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\obj\x86\Release\DAOModule.csproj.GenerateResource.Cache
+C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\obj\x86\Release\DAOModule.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\obj\x86\Release\DAOModule.pdb

@@ -25,7 +25,7 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\bin\Debug\TopBanne
 C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\bin\Debug\CommonLibrary.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\bin\Debug\Prism.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\bin\Debug\DAOModule.dll
-C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\bin\Debug\SQLite.NET.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\bin\Debug\System.Data.SQLite.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\bin\Debug\CommonLibrary.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\bin\Debug\Prism.xml
 C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\bin\Debug\DAOModule.pdb

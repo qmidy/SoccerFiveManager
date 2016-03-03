@@ -4,17 +4,17 @@
 library
 C#
 .cs
-d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\CommonLibrary\obj\Release\
+C:\Github\SoccerFiveManager\SoccerFiveManager\CommonLibrary\obj\Release\
 CommonLibrary
 none
 false
 TRACE
 
-1-497689168
+3-1270745047
 
-191752473550
-63-1965231319
-Resources\Colors.xaml;
+23-1012176606
+64-453528681
+Resources\Colors.xaml;Resources\Converters.xaml;Resources\Icons.xaml;
 
 False
 

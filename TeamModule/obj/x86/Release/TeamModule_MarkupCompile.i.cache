@@ -4,7 +4,7 @@
 library
 C#
 .cs
-d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TeamModule\obj\x86\Release\
+C:\Github\SoccerFiveManager\SoccerFiveManager\TeamModule\obj\x86\Release\
 TeamModule
 none
 false
@@ -12,8 +12,8 @@ TRACE
 
 1-1454428135
 
-11-1917402739
-13-1365084666
+11-915659828
+13-1111073739
 View\TeamView.xaml;
 
 False

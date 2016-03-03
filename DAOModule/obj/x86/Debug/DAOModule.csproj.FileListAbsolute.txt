@@ -8,8 +8,9 @@ d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\DAOModule\obj\x86\Debug
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\DAOModule\obj\x86\Debug\DAOModule.csprojResolveAssemblyReference.cache
 C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\bin\Debug\DAOModule.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\bin\Debug\DAOModule.pdb
-C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\bin\Debug\SQLite.NET.dll
-C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\obj\x86\Debug\DAOModule.csprojResolveAssemblyReference.cache
+C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\bin\Debug\System.Data.SQLite.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\bin\Debug\System.Data.SQLite.Linq.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\obj\x86\Debug\DAOModule.Properties.Resources.resources
 C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\obj\x86\Debug\DAOModule.csproj.GenerateResource.Cache
 C:\Github\SoccerFiveManager\SoccerFiveManager\DAOModule\obj\x86\Debug\DAOModule.dll

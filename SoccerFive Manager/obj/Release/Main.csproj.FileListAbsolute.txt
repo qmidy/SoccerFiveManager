@@ -27,3 +27,41 @@ d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\Release\GeneratedInternalTypeHelper.g.cs
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\Release\SoccerFive Manager_MarkupCompile.cache
 d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\SoccerFive Manager\obj\Release\SoccerFive Manager_MarkupCompile.lref
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\SoccerFive Manager.exe.config
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\SoccerFive Manager.exe
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\SoccerFive Manager.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\CalendarModule.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\ClubModule.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\CommonLibrary.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\ConfigurationGameModule.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\MainMenuModule.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\MatchEngineModule.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\Prism.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\TacticModule.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\TeamModule.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\TopBannerModule.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\DAOModule.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\System.Data.SQLite.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\CalendarModule.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\ClubModule.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\ConfigurationGameModule.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\TacticModule.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\TeamModule.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\TopBannerModule.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\CommonLibrary.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\MainMenuModule.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\MatchEngineModule.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\Prism.xml
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Release\DAOModule.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Release\Main.csprojResolveAssemblyReference.cache
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Release\MainWindow.g.cs
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Release\App.g.cs
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Release\SoccerFive Manager_MarkupCompile.cache
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Release\SoccerFive Manager_MarkupCompile.lref
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Release\MainWindow.baml
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Release\SoccerFive Manager.g.resources
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Release\Main.Properties.Resources.resources
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Release\Main.csproj.GenerateResource.Cache
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Release\SoccerFive Manager.exe
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Release\SoccerFive Manager.pdb

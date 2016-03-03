@@ -21,10 +21,11 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\TeamModule\bin\Debug\TeamModule.pd
 C:\Github\SoccerFiveManager\SoccerFiveManager\TeamModule\bin\Debug\CommonLibrary.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\TeamModule\bin\Debug\DAOModule.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\TeamModule\bin\Debug\Prism.dll
-C:\Github\SoccerFiveManager\SoccerFiveManager\TeamModule\bin\Debug\SQLite.NET.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\TeamModule\bin\Debug\System.Data.SQLite.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\TeamModule\bin\Debug\CommonLibrary.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\TeamModule\bin\Debug\DAOModule.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\TeamModule\bin\Debug\Prism.xml
+C:\Github\SoccerFiveManager\SoccerFiveManager\TeamModule\obj\x86\Debug\TeamModule.csprojResolveAssemblyReference.cache
 C:\Github\SoccerFiveManager\SoccerFiveManager\TeamModule\obj\x86\Debug\View\TeamView.baml
 C:\Github\SoccerFiveManager\SoccerFiveManager\TeamModule\obj\x86\Debug\View\TeamView.g.cs
 C:\Github\SoccerFiveManager\SoccerFiveManager\TeamModule\obj\x86\Debug\TeamModule_MarkupCompile.cache

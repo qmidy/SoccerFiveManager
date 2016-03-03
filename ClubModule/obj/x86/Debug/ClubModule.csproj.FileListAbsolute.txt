@@ -21,7 +21,7 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\bin\Debug\ClubModule.pd
 C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\bin\Debug\CommonLibrary.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\bin\Debug\DAOModule.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\bin\Debug\Prism.dll
-C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\bin\Debug\SQLite.NET.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\bin\Debug\System.Data.SQLite.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\bin\Debug\CommonLibrary.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\bin\Debug\DAOModule.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\bin\Debug\Prism.xml

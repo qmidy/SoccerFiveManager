@@ -74,16 +74,16 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\Tacti
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\TeamModule.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\TopBannerModule.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\DAOModule.dll
-C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\SQLite.NET.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\System.Data.SQLite.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\CalendarModule.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\ClubModule.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\CommonLibrary.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\ConfigurationGameModule.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\MainMenuModule.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\MatchEngineModule.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\TacticModule.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\TeamModule.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\TopBannerModule.pdb
-C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\CommonLibrary.pdb
-C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\MainMenuModule.pdb
-C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\MatchEngineModule.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\Prism.xml
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\DAOModule.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\Main.csprojResolveAssemblyReference.cache
@@ -98,3 +98,8 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\Main.
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\Main.csproj.GenerateResource.Cache
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager.exe
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\EntityFramework.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\EntityFramework.SqlServer.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\EntityFramework.xml
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\EntityFramework.SqlServer.xml
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\System.Data.SQLite.xml

@@ -4,7 +4,7 @@
 library
 C#
 .cs
-d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TacticModule\obj\x86\Release\
+C:\Github\SoccerFiveManager\SoccerFiveManager\TacticModule\obj\x86\Release\
 TacticModule
 none
 false
@@ -12,8 +12,8 @@ TRACE
 
 1-1822261067
 
-7828976872
-631673710296
+81144234828
+631927721223
 View\TacticView.xaml;
 
 False

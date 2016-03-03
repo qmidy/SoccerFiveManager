@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Finisar.SQLite;
+using System.Data.SQLite;
 
 namespace DAOModule
 {
@@ -11,7 +11,7 @@ namespace DAOModule
     {
         public static string ClubName;
 
-        protected SQLiteConnection sql_con;
+        protected static SQLiteConnection sql_con;
         protected SQLiteCommand sql_cmd;
         protected SQLiteDataAdapter DB;
 
@@ -22,30 +22,36 @@ namespace DAOModule
 
         protected void ExecuteNonQuery(string txtQuery)
         {
-            SetConnection();
-            sql_con.Open();
-            sql_cmd = sql_con.CreateCommand();
-            sql_cmd.CommandText = txtQuery;
-            sql_cmd.ExecuteNonQuery();
-            sql_con.Close();
+            lock (sql_con)
+            {
+                SetConnection();          
+                sql_con.Open();
+                sql_cmd = sql_con.CreateCommand();
+                sql_cmd.CommandText = txtQuery;
+                sql_cmd.ExecuteNonQuery();
+                sql_con.Close();
+            }
         }
 
         protected List<Object> ExecuteReader(string txtQuery)
         {
             List<Object> result = new List<object>();
-            SetConnection();
-            sql_con.Open();
-            sql_cmd = sql_con.CreateCommand();
-            sql_cmd.CommandText = txtQuery;
-            var resultReader = sql_cmd.ExecuteReader();
-            while (resultReader.Read())
+            lock (sql_con)
             {
-                for (int i = 0; i < resultReader.FieldCount; ++i)
+                SetConnection();
+                sql_con.Open();
+                sql_cmd = sql_con.CreateCommand();
+                sql_cmd.CommandText = txtQuery;
+                var resultReader = sql_cmd.ExecuteReader();
+                while (resultReader.Read())
                 {
-                    result.Add(resultReader.GetValue(i));
+                    for (int i = 0; i < resultReader.FieldCount; ++i)
+                    {
+                        result.Add(resultReader.GetValue(i));
+                    }
                 }
+                sql_con.Close();
             }
-            sql_con.Close();
             return result;
         }
     }

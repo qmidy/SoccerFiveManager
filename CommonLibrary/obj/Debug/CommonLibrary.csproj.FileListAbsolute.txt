@@ -30,7 +30,7 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\CommonLibrary\bin\Debug\CommonLibr
 C:\Github\SoccerFiveManager\SoccerFiveManager\CommonLibrary\bin\Debug\CommonLibrary.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\CommonLibrary\bin\Debug\DAOModule.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\CommonLibrary\bin\Debug\Prism.dll
-C:\Github\SoccerFiveManager\SoccerFiveManager\CommonLibrary\bin\Debug\SQLite.NET.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\CommonLibrary\bin\Debug\System.Data.SQLite.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\CommonLibrary\bin\Debug\DAOModule.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\CommonLibrary\bin\Debug\Prism.xml
 C:\Github\SoccerFiveManager\SoccerFiveManager\CommonLibrary\obj\Debug\CommonLibrary.csprojResolveAssemblyReference.cache
@@ -45,3 +45,4 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\CommonLibrary\obj\Debug\CommonLibr
 C:\Github\SoccerFiveManager\SoccerFiveManager\CommonLibrary\obj\Debug\CommonLibrary.csproj.GenerateResource.Cache
 C:\Github\SoccerFiveManager\SoccerFiveManager\CommonLibrary\obj\Debug\CommonLibrary.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\CommonLibrary\obj\Debug\CommonLibrary.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\CommonLibrary\bin\Debug\System.Data.SQLite.xml

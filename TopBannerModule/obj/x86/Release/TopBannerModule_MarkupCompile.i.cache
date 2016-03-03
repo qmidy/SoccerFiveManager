@@ -4,7 +4,7 @@
 library
 C#
 .cs
-d:\Profiles\qMidy\Desktop\Perso\SoccerFiveManager-master\TopBannerModule\obj\x86\Release\
+C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\obj\x86\Release\
 TopBannerModule
 none
 false
@@ -12,9 +12,9 @@ TRACE
 
 21740480082
 
-12-1502861386
-13-1365084666
+12-501118475
+641673768265
 Popup\TopBannerMenuPopup.xaml;View\TopBannerView.xaml;
 
-False
+True
 
