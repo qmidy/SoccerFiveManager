@@ -16,6 +16,8 @@ namespace CommonLibrary
 
         string Name { get; set; }
 
+        int TeamId { get; set; }
+
         int Attack { get; set; }
 
         int Defense { get; set; }

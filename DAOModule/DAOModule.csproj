@@ -100,10 +100,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DaoCommon\CommonDatabase.cs" />
+    <Compile Include="Dao\ManageClubDatabase.cs" />
     <Compile Include="Dao\ManageGameDatabase.cs" />
     <Compile Include="Dao\ManagePlayerDatabase.cs" />
+    <Compile Include="Dao\ManageTeamDatabase.cs" />
+    <Compile Include="Interfaces\IManageClubDatabase.cs" />
     <Compile Include="Interfaces\IManageGameDatabase.cs" />
     <Compile Include="Interfaces\IManagePlayerDatabase.cs" />
+    <Compile Include="Interfaces\IManageTeamDatabase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

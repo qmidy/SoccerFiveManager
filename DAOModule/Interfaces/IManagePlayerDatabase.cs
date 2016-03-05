@@ -10,6 +10,10 @@ namespace DAOModule
     {
         List<object> GetPlayers(string clubName);
 
-        List<object> GetPlayers(int clubId);
+        List<object> GetPlayersByClubId(int clubId);
+
+        List<object> GetPlayersByTeamId(int teamId);
+
+        object GetPlayer(int playerId);
     }
 }

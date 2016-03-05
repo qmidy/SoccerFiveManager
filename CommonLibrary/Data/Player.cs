@@ -17,6 +17,8 @@ namespace CommonLibrary
 
         public string Name { get; set; }
 
+        public int TeamId { get; set; }
+
         public int Attack { get; set; }
 
         public int Defense { get; set; }

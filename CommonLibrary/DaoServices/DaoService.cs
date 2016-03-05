@@ -15,24 +15,24 @@ namespace CommonLibrary
             manageGameDatabase.CreateGameDatabase();
         }
 
-        public static List<IPlayer> GetPlayers()
+        public static List<IPlayer> GetPlayers(string clubName)
         {
             List<IPlayer> result = new List<IPlayer>();
 
             IManagePlayerDatabase managePlayerDatabase = new ManagePlayerDatabase();
 
             // On récupère un tableau qui renvoie une donnée par case
-            // IE => [0] : Id du joueur / [1] : Nom du joueur / [2] : Club Id / [3] : Area / [4] : Number / [5] : Attack / [6] : Defense
-            var playerObjects = managePlayerDatabase.GetPlayers(CommonDatabase.ClubName);
-            var playersNumber = playerObjects.Count / 7;
-            var playerShift = 7;
+            // IE => [0] : Id du joueur / [1] : Nom du joueur / [2] : Team Id / [3] : Area / [4] : Number / [5] : Attack / [6] : Defense
+            var playerObjects = managePlayerDatabase.GetPlayers(clubName);
+            var playersNumber = playerObjects.Count / 11;
+            var playerShift = 11;
 
             for (int i = 0; i < playersNumber; ++i)
             {
                 IPlayer player = new Player();
                 player.Name = (string)playerObjects[i * playerShift + 1];
-                // player.Club = ...
-                player.Area = (EnumArea)Enum.Parse(typeof(EnumArea), playerObjects[i * playerShift + 3].ToString());
+                player.TeamId = (int)playerObjects[i * playerShift + 2];
+                player.Area = (EnumArea)(int)playerObjects[i * playerShift + 3];
                 player.Number = int.Parse(playerObjects[i * playerShift + 4].ToString());
                 player.Attack = int.Parse(playerObjects[i * playerShift + 5].ToString());
                 player.Defense = int.Parse(playerObjects[i * playerShift + 6].ToString());

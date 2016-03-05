@@ -205,24 +205,19 @@ namespace Main
         private void GoToClubEventCallBack(IClub arg)
         {
             IModuleFactory<IClubModuleViewModel> clubModuleFactory = new ClubModuleFactory();
-            //MainContent = clubModuleFactory.CreateView(arg);
-            MainContent = clubModuleFactory.CreateView(new Club() { Name = "Nom du club" });
+            MainContent = clubModuleFactory.CreateView(arg);
         }
 
         private void GoToTeamEventCallBack(ITeam arg)
         {
             IModuleFactory<ITeamModuleViewModel> teamModuleFactory = new TeamModuleFactory();
-            //MainContent = teamModuleFactory.CreateView(arg);
-            ITeam team = new Team() { Players = DaoService.GetPlayers() };
-            MainContent = teamModuleFactory.CreateView(team);
+            MainContent = teamModuleFactory.CreateView(arg);
         }
 
         private void GoToTacticEventCallBack(ITeam arg)
         {
             IModuleFactory<ITacticModuleViewModel> tacticModuleFactory = new TacticModuleFactory();
-            //MainContent = teamModuleFactory.CreateView(arg);
-            ITeam team = new Team() { Players = DaoService.GetPlayers() };
-            MainContent = tacticModuleFactory.CreateView(team);
+            MainContent = tacticModuleFactory.CreateView(arg);
         }
         #endregion
     }

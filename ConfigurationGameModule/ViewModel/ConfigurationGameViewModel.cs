@@ -34,7 +34,7 @@ namespace ConfigurationGameModule
             {
                 PersistedItems.clubName = ClubName;
                 DaoService.CreateGameDatabase(ClubName);
-                CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToTacticEvent>().Publish(null);
+                CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToTacticEvent>().Publish(new Team() { Players = DaoService.GetPlayers(PersistedItems.clubName) });
             }
         }
     }
