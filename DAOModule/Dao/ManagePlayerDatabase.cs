@@ -15,7 +15,7 @@ namespace DAOModule
 
         public List<object> GetPlayers(string clubName)
         {
-            return ExecuteReader("SELECT * FROM player p "
+            return ExecuteReader("SELECT p.id, p.name, p.team_id, p.area, p.number, p.attack, p.defense FROM player p "
                                  + "INNER JOIN team t ON p.team_id = t.id "
                                  + "INNER JOIN club c ON t.club_id = c.id "
                                  + "AND c.name = '" + clubName +"'");
@@ -23,7 +23,7 @@ namespace DAOModule
 
         public List<object> GetPlayersByClubId(int clubId)
         {
-            return ExecuteReader("SELECT * FROM player p "
+            return ExecuteReader("SELECT p.id, p.name, p.team_id, p.area, p.number, p.attack, p.defense FROM player p "
                                  + "INNER JOIN team t ON p.team_id = t.id "
                                  + "INNER JOIN club c ON t.club_id = c.id "
                                  + "AND c.id = '" + clubId + "'");
@@ -31,7 +31,7 @@ namespace DAOModule
 
         public List<object> GetPlayersByTeamId(int teamId)
         {
-            return ExecuteReader("SELECT * FROM player p "
+            return ExecuteReader("SELECT p.id, p.name, p.team_id, p.area, p.number, p.attack, p.defense FROM player p "
                                  + "INNER JOIN team t ON p.team_id = t.id "
                                  + "AND t.id = '" + teamId + "'");
         }

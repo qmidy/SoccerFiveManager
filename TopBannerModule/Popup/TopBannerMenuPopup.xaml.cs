@@ -38,17 +38,17 @@ namespace TopBannerModule
 
         private void ClubClick(object sender, RoutedEventArgs e)
         {
-            CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToClubEvent>().Publish(null);
+            CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToClubEvent>().Publish(DaoService.GetClub(0));
         }
 
         private void TeamClick(object sender, RoutedEventArgs e)
         {
-            CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToTeamEvent>().Publish(null);
+            CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToTeamEvent>().Publish(DaoService.GetTeam(0));
         }
 
         private void TacticClick(object sender, RoutedEventArgs e)
         {
-            CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToTacticEvent>().Publish(null);
+            CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToTacticEvent>().Publish(DaoService.GetTeam(0));
         }
 
         private void MainMenuClick(object sender, RoutedEventArgs e)

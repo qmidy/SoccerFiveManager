@@ -8,6 +8,8 @@ namespace CommonLibrary
 {
     public interface IPlayer
     {
+        int Id { get; set; }
+
         Point Position { get; set; }
 
         EnumArea Area { get; set; }

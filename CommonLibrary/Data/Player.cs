@@ -9,6 +9,8 @@ namespace CommonLibrary
 {
     public class Player : IPlayer
     {
+        public int Id { get; set; }
+
         public Point Position { get; set; }
 
         public EnumArea Area { get; set; }

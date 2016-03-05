@@ -123,6 +123,21 @@ namespace TacticModule
             }
         }
 
+        private int id;
+        public int Id
+        {
+            get
+            {
+                return id;
+            }
+
+            set
+            {
+                id = value;
+                OnPropertyChanged("IsPlayerChecked");
+            }
+        }
+
         public void SetOnlyIsPlayerChecked(bool value)
         {
             isPlayerChecked = value;

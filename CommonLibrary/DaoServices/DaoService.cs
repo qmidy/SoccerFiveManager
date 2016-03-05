@@ -11,35 +11,29 @@ namespace CommonLibrary
         public static void CreateGameDatabase(string clubName)
         {
             CommonDatabase.ClubName = clubName;
+            // ManaePlayerDatabase doit être un singleton !
             IManageGameDatabase manageGameDatabase = new ManageGameDatabase();
             manageGameDatabase.CreateGameDatabase();
         }
 
         public static List<IPlayer> GetPlayers(string clubName)
         {
-            List<IPlayer> result = new List<IPlayer>();
-
+            // ManaePlayerDatabase doit être un singleton !
             IManagePlayerDatabase managePlayerDatabase = new ManagePlayerDatabase();
 
-            // On récupère un tableau qui renvoie une donnée par case
-            // IE => [0] : Id du joueur / [1] : Nom du joueur / [2] : Team Id / [3] : Area / [4] : Number / [5] : Attack / [6] : Defense
-            var playerObjects = managePlayerDatabase.GetPlayers(clubName);
-            var playersNumber = playerObjects.Count / 11;
-            var playerShift = 11;
+            return DaoServicesPlayer.ConstructPlayersFromDAO(managePlayerDatabase.GetPlayers(clubName));
+        }
 
-            for (int i = 0; i < playersNumber; ++i)
-            {
-                IPlayer player = new Player();
-                player.Name = (string)playerObjects[i * playerShift + 1];
-                player.TeamId = (int)playerObjects[i * playerShift + 2];
-                player.Area = (EnumArea)(int)playerObjects[i * playerShift + 3];
-                player.Number = int.Parse(playerObjects[i * playerShift + 4].ToString());
-                player.Attack = int.Parse(playerObjects[i * playerShift + 5].ToString());
-                player.Defense = int.Parse(playerObjects[i * playerShift + 6].ToString());
-                result.Add(player);
-            }
+        public static ITeam GetTeam(int teamId)
+        {
+            // A refaire, uniquement pour tests !
+            return new Team() { Players = GetPlayers(PersistedItems.clubName) };
+        }
 
-            return result;
+        public static IClub GetClub(int clubId)
+        {
+            // A refaire, uniquement pour tests !
+            return new Club() { Name = PersistedItems.clubName, Team = GetTeam(0) };
         }
     }
 }
