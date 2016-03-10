@@ -7,6 +7,10 @@ namespace CommonLibrary
 {
     public interface ITeam
     {
+        int Id { get; set; }
+
         List<IPlayer> Players { get; set; }
+
+        int ClubId { get; set; }
     }
 }

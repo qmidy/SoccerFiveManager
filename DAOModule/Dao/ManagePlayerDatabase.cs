@@ -8,9 +8,9 @@ namespace DAOModule
 {
     public class ManagePlayerDatabase : CommonDatabase, IManagePlayerDatabase
     {
-        public object GetPlayer(int playerId)
+        public List<object> GetPlayer(int playerId)
         {
-            return ExecuteReader("SELECT * FROM player WHERE id = '" + playerId + "'").First();
+            return ExecuteReader("SELECT * FROM player WHERE id = '" + playerId + "'");
         }
 
         public List<object> GetPlayers(string clubName)

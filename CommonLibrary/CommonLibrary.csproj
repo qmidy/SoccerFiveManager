@@ -57,8 +57,10 @@
   <ItemGroup>
     <Compile Include="CalendarEvents\CommonCalendarEvent.cs" />
     <Compile Include="Converters\NullVisibilityConverter.cs" />
+    <Compile Include="DaoServices\Club\DaoServicesClub.cs" />
     <Compile Include="DaoServices\DaoService.cs" />
     <Compile Include="DaoServices\Player\DaoServicesPlayer.cs" />
+    <Compile Include="DaoServices\Team\DaoServicesTeam.cs" />
     <Compile Include="Data\Club.cs" />
     <Compile Include="Data\IClub.cs" />
     <Compile Include="Data\IPlayer.cs" />

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DAOModule
 {
-    class ManageTeamDatabase : CommonDatabase, IManageTeamDatabase
+    public class ManageTeamDatabase : CommonDatabase, IManageTeamDatabase
     {
-        public object GetTeam(int teamId)
+        public List<object> GetTeam(int teamId)
         {
-            return ExecuteReader("SELECT * FROM team WHERE id = '" + teamId +"'").First();
+            return ExecuteReader("SELECT * FROM team WHERE id = '" + teamId +"'");
         }
 
         public List<object> GetTeams(int clubId)

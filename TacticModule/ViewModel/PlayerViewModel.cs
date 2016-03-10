@@ -138,6 +138,21 @@ namespace TacticModule
             }
         }
 
+        private ITeam team;
+        public ITeam Team
+        {
+            get
+            {
+                return team;
+            }
+
+            set
+            {
+                team = value;
+                OnPropertyChanged("Team");
+            }
+        }
+
         public void SetOnlyIsPlayerChecked(bool value)
         {
             isPlayerChecked = value;

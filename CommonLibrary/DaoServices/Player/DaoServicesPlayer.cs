@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAOModule;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,7 +15,9 @@ namespace CommonLibrary
                 return null;
 
             IPlayer playerResult = new Player();
-            
+
+            IManageTeamDatabase manageTeamDatabase = DatabaseSingleton<ManageTeamDatabase>.Instance;
+
             // IE => [0] : Id du joueur / [1] : Nom du joueur / [2] : Team Id / [3] : Area / [4] : Number / [5] : Attack / [6] : Defense
             playerResult.Id = (int)playerFromDao[0];
             playerResult.Name = (string)playerFromDao[1];
@@ -36,7 +39,7 @@ namespace CommonLibrary
 
             for (int i = 0; i < playersNumber; ++i)
             {
-                result.Add(DaoServicesPlayer.ConstructPlayerFromDAO(playersFromDao.GetRange(i * playerShift, playerShift)));
+                result.Add(ConstructPlayerFromDAO(playersFromDao.GetRange(i * playerShift, playerShift)));
             }
 
             return result;

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DAOModule
 {
-    interface IManageClubDatabase
+    public interface IManageClubDatabase
     {
-        object GetClub(int clubId);
+        List<object> GetClub(int clubId);
 
         List<object> GetClubs(string clubName);
 

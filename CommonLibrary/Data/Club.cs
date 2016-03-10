@@ -7,8 +7,10 @@ namespace CommonLibrary
 {
     public class Club : IClub
     {
+        public int Id { get; set; }
+
         public string Name { get; set; }
 
-        public ITeam Team { get; set; }
+        public List<ITeam> Teams { get; set; }
     }
 }

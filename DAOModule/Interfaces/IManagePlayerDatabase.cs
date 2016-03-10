@@ -14,6 +14,6 @@ namespace DAOModule
 
         List<object> GetPlayersByTeamId(int teamId);
 
-        object GetPlayer(int playerId);
+        List<object> GetPlayer(int playerId);
     }
 }

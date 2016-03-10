@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DAOModule
 {
-    class ManageClubDatabase : CommonDatabase, IManageClubDatabase
+    public class ManageClubDatabase : CommonDatabase, IManageClubDatabase
     {
         public List<object> GetAllClubs()
         {
@@ -18,9 +18,9 @@ namespace DAOModule
             return ExecuteReader("SELECT * FROM club WHERE name = " + clubName);
         }
 
-        public object GetClub(int clubId)
+        public List<object> GetClub(int clubId)
         {
-            return ExecuteReader("SELECT * FROM club WHERE id = " + clubId).First();
+            return ExecuteReader("SELECT * FROM club WHERE id = " + clubId);
         }
     }
 }

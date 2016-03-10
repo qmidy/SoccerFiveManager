@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DAOModule
 {
-    interface IManageTeamDatabase
+    public interface IManageTeamDatabase
     {
         List<object> GetTeams(int clubId);
 
-        object GetTeam(int teamId);
+        List<object> GetTeam(int teamId);
     }
 }
