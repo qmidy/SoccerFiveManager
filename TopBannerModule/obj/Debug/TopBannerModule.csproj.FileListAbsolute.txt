@@ -7,6 +7,7 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\bin\Debug\System.D
 C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\bin\Debug\CommonLibrary.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\bin\Debug\Prism.xml
 C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\bin\Debug\DAOModule.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\bin\Debug\System.Data.SQLite.xml
 C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\obj\Debug\TopBannerModule.csprojResolveAssemblyReference.cache
 C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\obj\Debug\Popup\TopBannerMenuPopup.baml
 C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\obj\Debug\Popup\TopBannerMenuPopup.g.cs
@@ -20,4 +21,3 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\obj\Debug\TopBanne
 C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\obj\Debug\TopBannerModule.csproj.GenerateResource.Cache
 C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\obj\Debug\TopBannerModule.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\obj\Debug\TopBannerModule.pdb
-C:\Github\SoccerFiveManager\SoccerFiveManager\TopBannerModule\bin\Debug\System.Data.SQLite.xml

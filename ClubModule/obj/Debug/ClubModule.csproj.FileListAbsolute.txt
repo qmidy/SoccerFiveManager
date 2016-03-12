@@ -7,6 +7,7 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\bin\Debug\System.Data.S
 C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\bin\Debug\CommonLibrary.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\bin\Debug\DAOModule.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\bin\Debug\Prism.xml
+C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\bin\Debug\System.Data.SQLite.xml
 C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\obj\Debug\ClubModule.csprojResolveAssemblyReference.cache
 C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\obj\Debug\View\ClubView.baml
 C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\obj\Debug\View\ClubView.g.cs
@@ -16,4 +17,3 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\obj\Debug\ClubModule.Pr
 C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\obj\Debug\ClubModule.csproj.GenerateResource.Cache
 C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\obj\Debug\ClubModule.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\obj\Debug\ClubModule.pdb
-C:\Github\SoccerFiveManager\SoccerFiveManager\ClubModule\bin\Debug\System.Data.SQLite.xml

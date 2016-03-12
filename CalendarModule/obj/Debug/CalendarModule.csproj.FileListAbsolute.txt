@@ -7,6 +7,7 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\CalendarModule\bin\Debug\System.Da
 C:\Github\SoccerFiveManager\SoccerFiveManager\CalendarModule\bin\Debug\CommonLibrary.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\CalendarModule\bin\Debug\DAOModule.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\CalendarModule\bin\Debug\Prism.xml
+C:\Github\SoccerFiveManager\SoccerFiveManager\CalendarModule\bin\Debug\System.Data.SQLite.xml
 C:\Github\SoccerFiveManager\SoccerFiveManager\CalendarModule\obj\Debug\CalendarModule.csprojResolveAssemblyReference.cache
 C:\Github\SoccerFiveManager\SoccerFiveManager\CalendarModule\obj\Debug\View\CalendarView.baml
 C:\Github\SoccerFiveManager\SoccerFiveManager\CalendarModule\obj\Debug\View\CalendarView.g.cs
@@ -16,4 +17,3 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\CalendarModule\obj\Debug\CalendarM
 C:\Github\SoccerFiveManager\SoccerFiveManager\CalendarModule\obj\Debug\CalendarModule.csproj.GenerateResource.Cache
 C:\Github\SoccerFiveManager\SoccerFiveManager\CalendarModule\obj\Debug\CalendarModule.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\CalendarModule\obj\Debug\CalendarModule.pdb
-C:\Github\SoccerFiveManager\SoccerFiveManager\CalendarModule\bin\Debug\System.Data.SQLite.xml
