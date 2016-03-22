@@ -12,9 +12,15 @@
             <ColumnDefinition Width="50"/>
         </Grid.ColumnDefinitions>
 
-        <ToggleButton Name="MenuPopupOpened" Grid.Column="0" IsChecked="False"/>
+        <ToggleButton Name="MenuPopupOpened" Grid.Column="0" IsChecked="False">
+            <Viewbox>
+                <Canvas Width="50" Height="50" Clip="F1 M 0,0L 76,0L 76,76L 0,76L 0,0">
+                    <Path Width="38" Height="39" Canvas.Left="6" Canvas.Top="6" Stretch="Fill" Fill="DimGray" Data="F1 M 19,19L 57,19L 57,25L 19,25L 19,19 Z M 22,52L 54,52L 54,58L 22,58L 22,52 Z M 29,41L 47,41L 47,47L 29,47L 29,41 Z M 25,30L 51,30L 51,36L 25,36L 25,30 Z "/>
+                </Canvas>
+            </Viewbox>
+        </ToggleButton>
 
-        <Grid Grid.Column="1">
+        <Grid Grid.Column="1" Background="{DynamicResource WarmBlue}">
             <ItemsControl ItemsSource="{Binding EventDictionnary}">
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>

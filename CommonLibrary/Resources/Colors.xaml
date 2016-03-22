@@ -20,5 +20,8 @@
     <SolidColorBrush Color="#A6A500" x:Key="MiddleFadeYellow"></SolidColorBrush>
     <SolidColorBrush Color="#FFFE40" x:Key="HighFadeYellow"></SolidColorBrush>
     <SolidColorBrush Color="#FFFE73" x:Key="ExtremeFadeYellow"></SolidColorBrush>
+
+    <SolidColorBrush Color="#414F56" x:Key="WarmBlue"></SolidColorBrush>
+    <SolidColorBrush Color="#2E373D" x:Key="DarkWarmBlue"></SolidColorBrush>
     
 </ResourceDictionary>
