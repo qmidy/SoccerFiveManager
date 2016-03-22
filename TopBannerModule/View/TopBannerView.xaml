@@ -54,7 +54,7 @@
 
         <!-- Popup s'ouvrant lorsque le ToggleButton MenuPopupOpened est activé -->
 
-        <topBannerModule:TopBannerMenuPopup IsOpen="{Binding ElementName=MenuPopupOpened, Path=IsChecked, Mode=OneWay}"
+        <topBannerModule:TopBannerMenuPopup IsOpen="{Binding ElementName=MenuPopupOpened, Path=IsChecked, Mode=TwoWay}"
                                             Height="200"
                                             PlacementTarget="{Binding ElementName=MenuPopupOpened}"
                                             Placement="Bottom"/>

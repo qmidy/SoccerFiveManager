@@ -104,36 +104,28 @@ namespace Main
             }
         }
 
-        public EventHandler HideTopBanner;
-
-        private void hideTopBannerEvent(object sender, EventArgs e)
+        private void hideTopBanner()
         {
-            if (IsTopBannerVisible == Visibility.Visible)
-            {
-                IsTopBannerVisible = Visibility.Hidden;
-                TopBannerHeight = 0;
-            }
-            else
-            {
-                IsTopBannerVisible = Visibility.Visible;
-                TopBannerHeight = 50;
-            }
+            IsTopBannerVisible = Visibility.Hidden;
+            TopBannerHeight = 0;
         }
 
-        public EventHandler HideBottomBanner;
-
-        private void hideBottomBannerEvent(object sender, EventArgs e)
+        private void visibleTopBanner()
         {
-            if (IsBottomBannerVisible == Visibility.Visible)
-            {
-                IsBottomBannerVisible = Visibility.Hidden;
-                BottomBannerHeight = 0;
-            }
-            else
-            {
-                IsBottomBannerVisible = Visibility.Visible;
-                BottomBannerHeight = 50;
-            }
+            IsTopBannerVisible = Visibility.Visible;
+            TopBannerHeight = 50;
+        }
+
+        private void hideBottomBannerEvent()
+        {
+            IsBottomBannerVisible = Visibility.Hidden;
+            BottomBannerHeight = 0;
+        }
+
+        private void visibleBottomBanner()
+        {
+            IsBottomBannerVisible = Visibility.Visible;
+            BottomBannerHeight = 50;
         }
 
         public MainViewModel()
@@ -153,14 +145,6 @@ namespace Main
             CalendarService.AddEvent(new CommonCalendarEvent() { EventName = "TestEvent2" }, 6);
             CalendarService.AddEvent(new CommonCalendarEvent() { EventName = "TestEvent3" }, 7);
 
-            // Initialisation des événements de changement de visibilité des bannières supérieures et inférieures
-            HideTopBanner += hideTopBannerEvent;
-            HideBottomBanner += hideBottomBannerEvent;
-            IsBottomBannerVisible = Visibility.Hidden;
-            IsTopBannerVisible = Visibility.Hidden;
-            hideBottomBannerEvent(this, null);
-            hideTopBannerEvent(this, null);
-
             // Initialisation des événements de changement de vue
             CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToMainMenuEvent>().Subscribe(GoToMainMenuCallBack);
             CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToMatchEngineEvent>().Subscribe(GoToMacthEngineCallBack);
@@ -175,47 +159,65 @@ namespace Main
             MainContent = mainMenuModuleFactory.CreateView(null);
             IModuleFactory<ITopBannerModuleViewModel> topBannerModuleFactory = new TopBannerModuleFactory();
             TopBannerContent = topBannerModuleFactory.CreateView(null);
+
+            // Masquage de la bannière supérieure au démarrage
+            hideTopBanner();
+            visibleBottomBanner();
         }
 
         #region Go To View Private Methods
         private void GoToMainMenuCallBack(string arg)
         {
+            hideTopBanner();
+            visibleBottomBanner();
             IModuleFactory<IMainMenuModuleViewModel> mainMenuModuleFactory = new MainMenuModuleFactory();
             MainContent = mainMenuModuleFactory.CreateView(null);
         }
 
         private void GoToMacthEngineCallBack(string arg)
         {
+            visibleTopBanner();
+            visibleBottomBanner();
             IModuleFactory<IMatchEngineModuleViewModel> matchEngineModuleFactory = new MatchEngineModuleFactory();
             MainContent = matchEngineModuleFactory.CreateView(null);
         }
 
         private void GoToCalendarEventCallBack(string arg)
         {
+            visibleTopBanner();
+            visibleBottomBanner();
             IModuleFactory<ICalendarModuleViewModel> calendarModuleFactory = new CalendarModuleFactory();
             MainContent = calendarModuleFactory.CreateView(null);
         }
 
         private void GoToConfigurationGameCallBack(string arg)
         {
+            hideTopBanner();
+            visibleBottomBanner();
             IModuleFactory<IConfigurationGameModuleViewModel> configurationGameModuleFactory = new ConfigurationGameModuleFactory();
             MainContent = configurationGameModuleFactory.CreateView(null);
         }
 
         private void GoToClubEventCallBack(IClub arg)
         {
+            visibleTopBanner();
+            visibleBottomBanner();
             IModuleFactory<IClubModuleViewModel> clubModuleFactory = new ClubModuleFactory();
             MainContent = clubModuleFactory.CreateView(arg);
         }
 
         private void GoToTeamEventCallBack(ITeam arg)
         {
+            visibleTopBanner();
+            visibleBottomBanner();
             IModuleFactory<ITeamModuleViewModel> teamModuleFactory = new TeamModuleFactory();
             MainContent = teamModuleFactory.CreateView(arg);
         }
 
         private void GoToTacticEventCallBack(ITeam arg)
         {
+            visibleTopBanner();
+            visibleBottomBanner();
             IModuleFactory<ITacticModuleViewModel> tacticModuleFactory = new TacticModuleFactory();
             MainContent = tacticModuleFactory.CreateView(arg);
         }
