@@ -24,6 +24,14 @@ namespace TeamModule
             }
         }
 
+        public string ClubName
+        {
+            get
+            {
+                return PersistedItems.clubName;
+            }
+        }
+
         public TeamViewModel(ITeam team)
         {
             Team = team;

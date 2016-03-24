@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CommonLibrary;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,11 @@ namespace TeamModule
         public TeamView()
         {
             InitializeComponent();
+        }
+
+        private void ClubClick(object sender, RoutedEventArgs e)
+        {
+            CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToClubEvent>().Publish(DaoService.GetClub(1));
         }
     }
 }
