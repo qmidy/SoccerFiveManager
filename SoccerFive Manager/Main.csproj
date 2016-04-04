@@ -126,6 +126,10 @@
       <Project>{674d34b7-7a8b-446a-b4f9-c7ed66e140d8}</Project>
       <Name>ConfigurationGameModule</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CreationGameModule\CreationGameModule.csproj">
+      <Project>{7bf3a1ad-9d47-4e5d-8092-5d76607d4dd6}</Project>
+      <Name>CreationGameModule</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MainMenuModule\MainMenuModule.csproj">
       <Project>{4f0de427-08f2-4e93-a3a1-30689ce463db}</Project>
       <Name>MainMenuModule</Name>

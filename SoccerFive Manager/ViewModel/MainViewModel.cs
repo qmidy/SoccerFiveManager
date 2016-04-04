@@ -2,6 +2,7 @@
 using ClubModule;
 using CommonLibrary;
 using ConfigurationGameModule;
+using CreationGameModule;
 using MainMenuModule;
 using MatchEngineModule;
 using System;
@@ -153,6 +154,7 @@ namespace Main
             CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToClubEvent>().Subscribe(GoToClubEventCallBack);
             CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToTeamEvent>().Subscribe(GoToTeamEventCallBack);
             CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToTacticEvent>().Subscribe(GoToTacticEventCallBack);
+            CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToCreationGameEvent>().Subscribe(GoToCreationGameEventCallBack);
 
             // Implémentation des views et des viewmodels
             IModuleFactory<IMainMenuModuleViewModel> mainMenuModuleFactory = new MainMenuModuleFactory();
@@ -220,6 +222,14 @@ namespace Main
             visibleBottomBanner();
             IModuleFactory<ITacticModuleViewModel> tacticModuleFactory = new TacticModuleFactory();
             MainContent = tacticModuleFactory.CreateView(arg);
+        }
+
+        private void GoToCreationGameEventCallBack(string arg)
+        {
+            visibleTopBanner();
+            visibleBottomBanner();
+            IModuleFactory<ICreationGameModuleViewModel> creationGameModuleFactory = new CreationGameModuleFactory();
+            MainContent = creationGameModuleFactory.CreateView(null);
         }
         #endregion
     }

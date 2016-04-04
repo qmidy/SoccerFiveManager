@@ -8,6 +8,7 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\TacticModule\bin\Debug\CommonLibra
 C:\Github\SoccerFiveManager\SoccerFiveManager\TacticModule\bin\Debug\DAOModule.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\TacticModule\bin\Debug\Prism.xml
 C:\Github\SoccerFiveManager\SoccerFiveManager\TacticModule\bin\Debug\System.Data.SQLite.xml
+C:\Github\SoccerFiveManager\SoccerFiveManager\TacticModule\obj\Debug\TacticModule.csprojResolveAssemblyReference.cache
 C:\Github\SoccerFiveManager\SoccerFiveManager\TacticModule\obj\Debug\View\TacticView.g.cs
 C:\Github\SoccerFiveManager\SoccerFiveManager\TacticModule\obj\Debug\TacticModule_MarkupCompile.cache
 C:\Github\SoccerFiveManager\SoccerFiveManager\TacticModule\obj\Debug\TacticModule_MarkupCompile.lref
@@ -17,4 +18,3 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\TacticModule\obj\Debug\TacticModul
 C:\Github\SoccerFiveManager\SoccerFiveManager\TacticModule\obj\Debug\TacticModule.csproj.GenerateResource.Cache
 C:\Github\SoccerFiveManager\SoccerFiveManager\TacticModule\obj\Debug\TacticModule.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\TacticModule\obj\Debug\TacticModule.pdb
-C:\Github\SoccerFiveManager\SoccerFiveManager\TacticModule\obj\Debug\TacticModule.csprojResolveAssemblyReference.cache

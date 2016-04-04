@@ -30,5 +30,10 @@ namespace MainMenuModule
         {
             CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToConfigurationGameEvent>().Publish(string.Empty);
         }
+
+        private void CreateGameClick(object sender, RoutedEventArgs e)
+        {
+            CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToCreationGameEvent>().Publish(string.Empty);
+        }
     }
 }

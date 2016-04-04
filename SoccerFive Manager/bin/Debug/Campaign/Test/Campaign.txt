@@ -1,0 +1,9 @@
+<Campaign>
+	<Name>
+	Test
+	<Name/>
+
+	<Description>
+	Test Description
+	</Description>
+</Campaign>

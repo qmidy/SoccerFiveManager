@@ -16,6 +16,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Name="BottomBanner" Height="{Binding BottomBannerHeight}"/>
         </Grid.RowDefinitions>
+        
         <ContentPresenter Grid.Row="0" Visibility="{Binding IsTopBannerVisible}" Content="{Binding Path=TopBannerContent}"/>
 
         <Grid Grid.Row="1">
@@ -30,6 +31,7 @@
             </StackPanel>
             <ContentPresenter Grid.Column="1" Content="{Binding Path=MainContent}"/>
         </Grid>
+        
         <Rectangle Grid.Row="2" Visibility="{Binding IsBottomBannerVisible}" Fill="{DynamicResource WarmBlue}"/>
     </Grid>
 </Window>

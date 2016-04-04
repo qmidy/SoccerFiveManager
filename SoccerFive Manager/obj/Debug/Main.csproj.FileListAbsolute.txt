@@ -1,3 +1,9 @@
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\Main.csprojResolveAssemblyReference.cache
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\MainWindow.g.cs
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\App.g.cs
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager_MarkupCompile.cache
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager_MarkupCompile.lref
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\SoccerFive Manager.exe.config
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\SoccerFive Manager.exe
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\SoccerFive Manager.pdb
@@ -5,6 +11,7 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\Calen
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\ClubModule.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\CommonLibrary.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\ConfigurationGameModule.dll
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\CreationGameModule.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\EntityFramework.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\EntityFramework.SqlServer.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\MainMenuModule.dll
@@ -19,6 +26,7 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\Calen
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\ClubModule.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\CommonLibrary.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\ConfigurationGameModule.pdb
+C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\CreationGameModule.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\MainMenuModule.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\MatchEngineModule.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\TacticModule.pdb
@@ -29,12 +37,6 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\Entit
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\Prism.xml
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\DAOModule.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\bin\Debug\System.Data.SQLite.xml
-C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\Main.csprojResolveAssemblyReference.cache
-C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\MainWindow.g.cs
-C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\App.g.cs
-C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\GeneratedInternalTypeHelper.g.cs
-C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager_MarkupCompile.cache
-C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager_MarkupCompile.lref
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\MainWindow.baml
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\SoccerFive Manager.g.resources
 C:\Github\SoccerFiveManager\SoccerFiveManager\SoccerFive Manager\obj\Debug\Main.Properties.Resources.resources

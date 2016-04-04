@@ -8,6 +8,7 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\ConfigurationGameModule\bin\Debug\
 C:\Github\SoccerFiveManager\SoccerFiveManager\ConfigurationGameModule\bin\Debug\Prism.xml
 C:\Github\SoccerFiveManager\SoccerFiveManager\ConfigurationGameModule\bin\Debug\DAOModule.pdb
 C:\Github\SoccerFiveManager\SoccerFiveManager\ConfigurationGameModule\bin\Debug\System.Data.SQLite.xml
+C:\Github\SoccerFiveManager\SoccerFiveManager\ConfigurationGameModule\obj\Debug\ConfigurationGameModule.csprojResolveAssemblyReference.cache
 C:\Github\SoccerFiveManager\SoccerFiveManager\ConfigurationGameModule\obj\Debug\View\ConfigurationGameView.baml
 C:\Github\SoccerFiveManager\SoccerFiveManager\ConfigurationGameModule\obj\Debug\View\ConfigurationGameView.g.cs
 C:\Github\SoccerFiveManager\SoccerFiveManager\ConfigurationGameModule\obj\Debug\ConfigurationGameModule_MarkupCompile.cache
@@ -16,4 +17,3 @@ C:\Github\SoccerFiveManager\SoccerFiveManager\ConfigurationGameModule\obj\Debug\
 C:\Github\SoccerFiveManager\SoccerFiveManager\ConfigurationGameModule\obj\Debug\ConfigurationGameModule.csproj.GenerateResource.Cache
 C:\Github\SoccerFiveManager\SoccerFiveManager\ConfigurationGameModule\obj\Debug\ConfigurationGameModule.dll
 C:\Github\SoccerFiveManager\SoccerFiveManager\ConfigurationGameModule\obj\Debug\ConfigurationGameModule.pdb
-C:\Github\SoccerFiveManager\SoccerFiveManager\ConfigurationGameModule\obj\Debug\ConfigurationGameModule.csprojResolveAssemblyReference.cache

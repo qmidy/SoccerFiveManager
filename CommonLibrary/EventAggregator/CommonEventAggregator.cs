@@ -24,6 +24,8 @@ namespace CommonLibrary
 
     public class GoToConfigurationGameEvent : CompositeWpfEvent<string> { }
 
+    public class GoToCreationGameEvent : CompositeWpfEvent<string> { }
+
     public class GoToClubEvent : CompositeWpfEvent<IClub> { }
 
     public class GoToTeamEvent : CompositeWpfEvent<ITeam> { }
