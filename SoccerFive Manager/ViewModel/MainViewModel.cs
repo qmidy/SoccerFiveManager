@@ -226,7 +226,7 @@ namespace Main
 
         private void GoToCreationGameEventCallBack(string arg)
         {
-            visibleTopBanner();
+            hideTopBanner();
             visibleBottomBanner();
             IModuleFactory<ICreationGameModuleViewModel> creationGameModuleFactory = new CreationGameModuleFactory();
             MainContent = creationGameModuleFactory.CreateView(null);

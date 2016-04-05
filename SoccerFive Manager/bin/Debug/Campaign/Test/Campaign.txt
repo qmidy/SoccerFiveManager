@@ -1,7 +1,7 @@
 <Campaign>
 	<Name>
 	Test
-	<Name/>
+	</Name>
 
 	<Description>
 	Test Description

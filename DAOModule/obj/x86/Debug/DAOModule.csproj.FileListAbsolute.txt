@@ -1,0 +1,16 @@
+C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\bin\Debug\DAOModule.dll.config
+C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\bin\Debug\DAOModule.dll
+C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\bin\Debug\DAOModule.pdb
+C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\bin\Debug\EntityFramework.dll
+C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\bin\Debug\System.Data.SQLite.dll
+C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\bin\Debug\EntityFramework.xml
+C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\bin\Debug\System.Data.SQLite.xml
+C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\obj\x86\Debug\DAOModule.g.resources
+C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\obj\x86\Debug\DAOModule.Properties.Resources.resources
+C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\obj\x86\Debug\DAOModule.csproj.GenerateResource.Cache
+C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\obj\x86\Debug\DAOModule.dll
+C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\obj\x86\Debug\DAOModule.pdb
