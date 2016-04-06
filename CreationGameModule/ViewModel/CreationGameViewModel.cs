@@ -15,6 +15,7 @@ namespace CreationGameModule
         public CreationGameViewModel()
         {
             CampaignList = GetCampaignList();
+            SelectedCampaign = null;
         }
 
         #region Fields
@@ -31,6 +32,21 @@ namespace CreationGameModule
             {
                 campaignList = value;
                 OnPropertyChanged("CampaignList");
+            }
+        }
+
+        private ICampaign selectedCampaign;
+
+        public ICampaign SelectedCampaign
+        {
+            get
+            {
+                return selectedCampaign;
+            }
+            set
+            {
+                selectedCampaign = value;
+                OnPropertyChanged("SelectedCampaign");
             }
         }
 
@@ -54,7 +70,11 @@ namespace CreationGameModule
                     {
                         ICampaign campaign = XmlService<Campaign>.ReadXml(campaignFilePath);
                         if(campaign != null)
+                        {
+                            while (result.Select(x => x.Name).Contains(campaign.Name))
+                                string.Concat(campaign.Name, "1"); 
                             result.Add(campaign);
+                        }
                     }
                 }
             }

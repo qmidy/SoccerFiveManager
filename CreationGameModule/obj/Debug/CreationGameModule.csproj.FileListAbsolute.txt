@@ -36,3 +36,4 @@ C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\CreationGameModule\obj\
 C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\CreationGameModule\obj\Debug\CreationGameModule.csproj.GenerateResource.Cache
 C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\CreationGameModule\obj\Debug\CreationGameModule.dll
 C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\CreationGameModule\obj\Debug\CreationGameModule.pdb
+C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\CreationGameModule\obj\Debug\CreationGameModule_MarkupCompile.lref

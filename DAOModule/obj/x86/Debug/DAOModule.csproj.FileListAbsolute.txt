@@ -14,3 +14,4 @@ C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\obj\x86\Debug
 C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\obj\x86\Debug\DAOModule.csproj.GenerateResource.Cache
 C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\obj\x86\Debug\DAOModule.dll
 C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\obj\x86\Debug\DAOModule.pdb
+C:\Users\quentin.midy\Documents\GitHub\SoccerFiveManager\DAOModule\obj\x86\Debug\DAOModule.csprojResolveAssemblyReference.cache

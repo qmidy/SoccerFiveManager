@@ -1,6 +1,7 @@
 ﻿<UserControl x:Class="CreationGameModule.CreationGameView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:creationGameModule="clr-namespace:CreationGameModule"
         Background="{DynamicResource WarmBlue}">
     <UserControl.Resources>
         <ResourceDictionary Source="pack://application:,,,/CommonLibrary;component/Resources/Colors.xaml"/>
@@ -9,7 +10,7 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20*"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="80*"/>
         </Grid.ColumnDefinitions>
 
         <!-- Liste des Campagnes déjà créées dans la partie gauche -->
@@ -21,13 +22,65 @@
             </ItemsControl.ItemsPanel>
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <Button Content="{Binding Name}"/>
+                    <Button Content="{Binding Name}" Click="CampaignClick"/>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ItemsControl>
         
         <!-- Affichage des paramètres de la campagne sélectionnée dans la partie droite -->
         
-        
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20*"/>
+                <RowDefinition Height="80*"/>
+            </Grid.RowDefinitions>    
+                
+            <!-- Header avec le nom et la description de la campagne-->
+            <Grid Grid.Row="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Text="Nom : "/>
+                    <TextBox Grid.Column="1" Text="{Binding SelectedCampaign.Name}"/>
+                </Grid>
+
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Text="Description : "/>
+                    <TextBox Grid.Column="1" Text="{Binding SelectedCampaign.Description}"/>
+                </Grid>
+            </Grid>
+            
+            <!-- Partie centrale où sont présents les onglets d'administration des tables -->
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <!-- Listes des tables -->
+                <Grid Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Button Grid.Row="0" Content="Club"/>
+                    <Button Grid.Row="1" Content="Championnat"/>
+                    <Button Grid.Row="2" Content="Equipe"/>
+                    <Button Grid.Row="3" Content="Joueur"/>
+                </Grid>                
+            </Grid>
+        </Grid>
     </Grid>
 </UserControl>

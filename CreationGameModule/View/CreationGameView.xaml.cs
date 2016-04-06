@@ -25,5 +25,11 @@ namespace CreationGameModule
         {
             InitializeComponent();
         }
+
+        private void CampaignClick(object sender, RoutedEventArgs e)
+        {
+            ICampaign campaign = (sender as Button).DataContext as ICampaign;
+            (this.DataContext as CreationGameViewModel).SelectedCampaign = campaign;
+        }
     }
 }
