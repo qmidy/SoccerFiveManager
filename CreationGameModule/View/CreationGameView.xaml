@@ -14,19 +14,33 @@
         </Grid.ColumnDefinitions>
 
         <!-- Liste des Campagnes déjà créées dans la partie gauche -->
-        <ItemsControl ItemsSource="{Binding CampaignList}" Grid.Column="0">
-            <ItemsControl.ItemsPanel>
-                <ItemsPanelTemplate>
-                    <StackPanel Orientation="Vertical"/>
-                </ItemsPanelTemplate>
-            </ItemsControl.ItemsPanel>
-            <ItemsControl.ItemTemplate>
-                <DataTemplate>
-                    <Button Content="{Binding Name}" Click="CampaignClick"/>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
-        
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="90*"/>
+            </Grid.RowDefinitions>
+
+            <Button Grid.Row="0" Click="CreateCampaignClick">
+                <Viewbox Grid.Column="0">
+                    <Canvas x:Name="appbar_add" Width="76" Height="76" Clip="F1 M 0,0L 76,0L 76,76L 0,76L 0,0">
+                        <Path Width="38" Height="38" Canvas.Left="19" Canvas.Top="19" Stretch="Fill" Fill="Green" Data="F1 M 35,19L 41,19L 41,35L 57,35L 57,41L 41,41L 41,57L 35,57L 35,41L 19,41L 19,35L 35,35L 35,19 Z "/>
+                    </Canvas>
+                </Viewbox>
+            </Button>
+
+            <ItemsControl ItemsSource="{Binding CampaignList}" Grid.Row="1">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Vertical"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Button Content="{Binding Name}" Click="CampaignClick"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </Grid>
         <!-- Affichage des paramètres de la campagne sélectionnée dans la partie droite -->
         
         <Grid Grid.Column="1">
