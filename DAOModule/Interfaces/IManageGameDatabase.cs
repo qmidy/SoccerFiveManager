@@ -7,6 +7,8 @@ namespace DAOModule
 {
     public interface IManageGameDatabase
     {
-        void CreateGameDatabase();
+        void Initialize(string filePath);
+
+        void CreateCampaignDatabase(string filePath);
     }
 }

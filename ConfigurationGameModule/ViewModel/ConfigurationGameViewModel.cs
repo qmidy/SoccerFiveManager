@@ -27,15 +27,5 @@ namespace ConfigurationGameModule
                 OnPropertyChanged("ClubName");
             }
         }
-
-        public void CreateGame()
-        {
-            if (!String.IsNullOrEmpty(ClubName))
-            {
-                PersistedItems.clubName = ClubName;
-                DaoService.CreateGameDatabase(ClubName);
-                CommonEventAggregator.GetCommonEventAggregator().GetEvent<GoToTacticEvent>().Publish(new Team() { Players = DaoService.GetPlayers(PersistedItems.clubName) });
-            }
-        }
     }
 }

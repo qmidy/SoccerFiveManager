@@ -36,5 +36,27 @@ namespace CommonLibrary
 
             return result;
         }
+
+        public static bool WriteXml(string filePath, T objectToSerialize)
+        {
+            if(!File.Exists(filePath))
+            {
+                Directory.CreateDirectory(Path.GetDirectoryName(filePath));
+                File.Create(filePath).Close();
+
+                XmlSerializer serializer = new XmlSerializer(typeof(T));
+                XmlWriter writer = new XmlTextWriter(filePath, UTF8Encoding.UTF8);
+
+                serializer.Serialize(writer, objectToSerialize);
+                writer.Close();
+
+                return true;
+            }
+            else
+            {
+                // Si le fichier existe déjà, on ne fait aucun traitement
+                return false;
+            }
+        }
     }
 }

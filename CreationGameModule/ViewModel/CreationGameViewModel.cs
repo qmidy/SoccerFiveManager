@@ -122,19 +122,20 @@ namespace CreationGameModule
         public void CreateCampaign()
         {
             // Initiliaser un objet Campaign
-            ICampaign campaign = new Campaign() { Name = "Nouvelle Campagne", Description = "Description Nouvelle Campagne" };
+            Campaign campaign = new Campaign() { Name = "Nouvelle Campagne", Description = "Description Nouvelle Campagne" };
             
             // On vérifie qu'une campagne appelée "Nouvelle Campagne" n'existe pas déjà / Maitrise du multi-clic
 
             // Générer un fichier XML Campaign.txt
-            // XmlService<Campaign>.WriteXml(campaign);
-            
-            // Générer un fichier DB Campaign.db
-            // DaoService.CreateCampaignDatabase();
-            
-            // On rappelle la méthode GetCampaignList afin de remettre à jour la liste des campagnes 
-            //  On verra la campagne nouvellement créée apparaître
-            CampaignList = GetCampaignList();
+            if (XmlService<Campaign>.WriteXml("Campaign\\Nouvelle Campagne\\Campaign.txt", campaign))
+            {
+                // Générer un fichier DB Campaign.db
+                DaoService.CreateCampaignDatabase("Campaign\\Nouvelle Campagne\\Campaign.db");
+
+                // On rappelle la méthode GetCampaignList afin de remettre à jour la liste des campagnes 
+                //  On verra la campagne nouvellement créée apparaître
+                CampaignList = GetCampaignList();
+            }
         }
 
         #endregion
@@ -182,8 +183,8 @@ namespace CreationGameModule
                     string campaignDataBasePath = string.Concat(selectedCampaignDirectory, "\\Campaign.db");
                     if (File.Exists(campaignDataBasePath))
                     {
-                        /*DaoService.Initialize(campaignDataBasePath);
-                        ChampionshipList = DaoServicesChampionship.GetAllChampionship();
+                        DaoService.Initialize(campaignDataBasePath);
+                        /*ChampionshipList = DaoServicesChampionship.GetAllChampionship();
                         ClubList = DaoServicesClub.GetAllClub();
                         TeamList = DaoServicesTeam.GetAllTeam();
                         PlayerList = DaoServicesPlayer.GetAllPlayer();*/

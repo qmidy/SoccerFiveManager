@@ -8,12 +8,24 @@ namespace CommonLibrary
 {
     public static class DaoService
     {
-        public static void CreateGameDatabase(string clubName)
+        #region Initialization
+
+        public static void Initialize(string filePath)
         {
-            CommonDatabase.ClubName = clubName;
             IManageGameDatabase manageGameDatabase = DatabaseSingleton<ManageGameDatabase>.Instance;
-            manageGameDatabase.CreateGameDatabase();
+            manageGameDatabase.Initialize(filePath);
         }
+
+        #endregion
+
+        #region Campagin Management
+        public static void CreateCampaignDatabase(string filePath)
+        {
+            IManageGameDatabase manageGameDatabase = DatabaseSingleton<ManageGameDatabase>.Instance;
+            manageGameDatabase.CreateCampaignDatabase(filePath);
+        }
+
+        #endregion
 
         public static List<IPlayer> GetPlayers(string clubName)
         {

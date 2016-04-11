@@ -28,7 +28,7 @@ namespace ConfigurationGameModule
 
         private void CreateGameClick(object sender, RoutedEventArgs e)
         {
-            ((sender as Button).DataContext as ConfigurationGameViewModel).CreateGame();
+            //((sender as Button).DataContext as ConfigurationGameViewModel).CreateGame();
         }
     }
 }

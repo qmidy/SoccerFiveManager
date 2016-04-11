@@ -23,19 +23,24 @@ namespace DAOModule
         private DataSet DS;
         private DataTable DT;
 
-        public void CreateGameDatabase()
+        public void Initialize(string filePath)
         {
-            var sqlcon = new SQLiteConnection("Data Source=" + ClubName + ".db;New=True;Version=3;Compress=True;");
-            var sqlcommand = new SQLiteCommand();
+            var sqlcon = new SQLiteConnection("Data Source=" + filePath + ".db;New=True;Version=3;Compress=True;");
             sqlcon.Open();
             sqlcon.Close();
+        }
 
-            SetConnection();
-            sql_con.Open();
-            sqlcommand = sql_con.CreateCommand();
-            sqlcommand.CommandText = string.Format(System.IO.File.ReadAllText("SqlScripts\\CreateGameScript.sql"), ClubName);
-            sqlcommand.ExecuteNonQuery();
-            sql_con.Close();
+        public void CreateCampaignDatabase(string filePath)
+        {
+            SQLiteConnection.CreateFile(filePath);
+            SQLiteConnection createConnection = new SQLiteConnection("Data Source=" + filePath + ";New=True;Version=3;Compress=True;");
+            SQLiteCommand sqlCommand = new SQLiteCommand();
+
+            createConnection.Open();
+            sqlCommand = createConnection.CreateCommand();
+            sqlCommand.CommandText = System.IO.File.ReadAllText("SqlScripts\\CreateDatabaseScript.sql");
+            sqlCommand.ExecuteNonQuery();
+            createConnection.Close();
         }
     }
 }
